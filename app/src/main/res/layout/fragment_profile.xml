@@ -7,16 +7,7 @@
     tools:context=".Profile">
 
     <!-- TODO: Update blank fragment layout -->
-    <View
-        android:id="@+id/view"
-        android:layout_width="match_parent"
-        android:layout_height="730dp"
-        android:background="@drawable/vector_2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
+
 
     <TextView
         android:layout_width="match_parent"

@@ -7,16 +7,7 @@
     tools:context=".Post">
 
     <!-- TODO: Update blank fragment layout -->
-    <View
-        android:id="@+id/view"
-        android:layout_width="match_parent"
-        android:layout_height="730dp"
-        android:background="@drawable/vector_2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
+
     <View
         android:id="@+id/sun"
         android:layout_width="200dp"
@@ -49,6 +40,238 @@
         android:layout_marginEnd="27dp"
         app:cardBackgroundColor="@color/white"
         app:cardCornerRadius="15dp"
-        app:cardElevation="8dp" />
+        app:cardElevation="8dp" >
 
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/post_q1"
+                android:textColor="@color/dark"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                />
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="20dp">
+
+                <RadioButton
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:text="bad"/>
+                <RadioButton
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:text="okay"/>
+                <RadioButton
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:text="good"/>
+                <RadioButton
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:text="great"/>
+
+            </RadioGroup>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/post_q2"
+                android:textColor="@color/dark"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:layout_marginTop="110dp"
+                android:textStyle="bold"
+                />
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="130dp"
+                android:layout_marginStart="20dp">
+
+                <RadioButton
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:text="bad"/>
+                <RadioButton
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:text="okay"/>
+                <RadioButton
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:text="good"/>
+                <RadioButton
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:text="great"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/post_q3"
+                android:textColor="@color/dark"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:layout_marginTop="200dp"
+                android:textStyle="bold"
+                />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="220dp"
+                android:layout_marginStart="20dp">
+
+                <RadioButton
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:text="bad"/>
+                <RadioButton
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:text="okay"/>
+                <RadioButton
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:text="good"/>
+                <RadioButton
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:text="great"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/post_q4"
+                android:textColor="@color/dark"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:layout_marginTop="290dp"
+                android:textStyle="bold"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="310dp"
+                android:layout_marginStart="20dp">
+
+                <RadioButton
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:text="bad"/>
+                <RadioButton
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:text="okay"/>
+                <RadioButton
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:text="good"/>
+                <RadioButton
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:text="great"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/post_q5"
+                android:textColor="@color/dark"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:layout_marginTop="380dp"
+                android:textStyle="bold"
+                />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="400dp"
+                android:layout_marginStart="20dp">
+
+                <RadioButton
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:text="bad"/>
+                <RadioButton
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:text="okay"/>
+                <RadioButton
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:text="good"/>
+                <RadioButton
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:text="great"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/post_q6"
+                android:textColor="@color/dark"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:layout_marginTop="470dp"
+                android:textStyle="bold"
+                />
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="490dp"
+                android:layout_marginStart="20dp">
+
+                <RadioButton
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:text="bad"/>
+                <RadioButton
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:text="okay"/>
+                <RadioButton
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:text="good"/>
+                <RadioButton
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:text="great"/>
+
+            </RadioGroup>
+            <Button
+                android:id="@+id/post_button"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="@string/post_button"
+                android:layout_marginTop="560dp"
+                android:layout_marginStart="127dp"
+                android:backgroundTint="@color/pop"
+                app:cornerRadius="20dp"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
 </FrameLayout>

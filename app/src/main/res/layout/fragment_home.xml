@@ -1,28 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Home">
 
     <!-- TODO: Update blank fragment layout -->
-    <View
-        android:id="@+id/view"
-        android:layout_width="match_parent"
-        android:layout_height="730dp"
-        android:background="@drawable/vector_2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
+
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:ignore="ScrollViewCount">
-
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -38,7 +28,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="35dp"
-                    android:layout_marginTop="20sp"
+                    android:layout_marginTop="40sp"
                     android:paddingBottom="10dp"
                     android:text="@string/greeting"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -49,25 +39,79 @@
 
                 <View
                     android:id="@+id/profile_background"
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
                     android:layout_marginLeft="300dp"
-                    android:layout_marginTop="30dp"
+                    android:layout_marginTop="45dp"
                     android:background="@drawable/ellipse_4"
                     tools:ignore="MissingConstraints" />
 
+                <View
+                    android:id="@+id/profile_image"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="305dp"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/profileim"
+                    tools:ignore="MissingConstraints" />
             </RelativeLayout>
-
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView"
                 android:layout_width="350dp"
                 android:layout_height="270dp"
-                android:layout_margin="27dp"
-                android:layout_marginStart="60dp"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="27dp"
+                android:layout_marginEnd="27dp"
+                android:layout_marginBottom="27dp"
                 app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="15dp"
-                app:cardElevation="8dp" />
+                app:cardElevation="8dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Student Health Services"
+                    android:textColor="@color/dark"
+                    android:textStyle="bold"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="190dp"
+                    android:textSize="15dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hours: 8:30am-5pm"
+                    android:textColor="@color/dark"
+                    android:textStyle="bold"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="215dp"
+                    android:textSize="13dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(843) 953-5520"
+                    android:textColor="@color/pop"
+                    android:textStyle="bold"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="237dp"
+                    android:textSize="13dp"
+                    />
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="230dp"
+                    android:layout_marginTop="200dp"
+                    android:text="Open"
+                    android:backgroundTint="@color/pop"
+                    app:cornerRadius="20dp"
+                    />
+
+            </RelativeLayout>
+            </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView2"
@@ -77,7 +121,52 @@
                 android:layout_marginStart="60dp"
                 app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="15dp"
-                app:cardElevation="8dp" />
+                app:cardElevation="8dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Suicide Hotline"
+                        android:textColor="@color/dark"
+                        android:textStyle="bold"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="190dp"
+                        android:textSize="15dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hours: 24/7"
+                        android:textColor="@color/dark"
+                        android:textStyle="bold"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="215dp"
+                        android:textSize="13dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="988"
+                        android:textColor="@color/pop"
+                        android:textStyle="bold"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="237dp"
+                        android:textSize="13dp"
+                        />
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="230dp"
+                        android:layout_marginTop="200dp"
+                        android:text="Open"
+                        android:backgroundTint="@color/pop"
+                        app:cornerRadius="20dp"
+                        />
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView3"

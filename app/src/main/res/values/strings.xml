@@ -4,4 +4,12 @@
     <string name="service_title">Student Health Service</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="post_q1">How was your day?</string>
+    <string name="post_q2">How did you sleep?</string>
+    <string name="post_q3">Have you eaten enough?</string>
+    <string name="post_q4">Did you spend time with friends?</string>
+    <string name="post_q5">Did you feel better yesterday?</string>
+    <string name="post_q6">Did you go outside?</string>
+    <string name="post_button">Post</string>
+    <string name="search">Search</string>
 </resources>

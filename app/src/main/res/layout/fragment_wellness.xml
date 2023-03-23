@@ -7,16 +7,7 @@
     tools:context=".Wellness">
 
     <!-- TODO: Update blank fragment layout -->
-    <View
-        android:id="@+id/view"
-        android:layout_width="match_parent"
-        android:layout_height="730dp"
-        android:background="@drawable/vector_2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
+
 
     <ScrollView
         android:layout_width="match_parent"
@@ -43,8 +34,8 @@
                 android:id="@+id/cardView"
                 android:layout_width="350dp"
                 android:layout_height="190dp"
-                android:layout_margin="27dp"
-                android:layout_marginStart="60dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="27dp"
                 app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="15dp"
                 app:cardElevation="8dp"
