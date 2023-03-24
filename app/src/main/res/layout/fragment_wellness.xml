@@ -33,54 +33,166 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView"
                 android:layout_width="350dp"
-                android:layout_height="190dp"
+                android:layout_height="160dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginStart="27dp"
                 app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="15dp"
-                app:cardElevation="8dp"
-                />
+                app:cardElevation="8dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mental Stability"
+                        android:textColor="@color/dark"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="115dp"/>
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        app:cornerRadius="20dp"
+                        android:backgroundTint="@color/pop"
+                        android:layout_marginTop="100dp"
+                        android:layout_marginStart="230dp"
+                        android:text="Open"/>
 
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView2"
                 android:layout_width="350dp"
-                android:layout_height="190dp"
-                android:layout_margin="27dp"
-                android:layout_marginStart="60dp"
+                android:layout_height="160dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="27dp"
                 app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="15dp"
-                app:cardElevation="8dp" />
+                app:cardElevation="8dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Time Management"
+                        android:textColor="@color/dark"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="115dp"/>
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        app:cornerRadius="20dp"
+                        android:backgroundTint="@color/pop"
+                        android:layout_marginTop="100dp"
+                        android:layout_marginStart="230dp"
+                        android:text="Open"/>
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView3"
                 android:layout_width="350dp"
-                android:layout_height="190dp"
-                android:layout_margin="27dp"
-                android:layout_marginStart="60dp"
+                android:layout_height="160dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="27dp"
                 app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="15dp"
-                app:cardElevation="8dp" />
+                app:cardElevation="8dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Breathing Exercises"
+                        android:textColor="@color/dark"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="115dp"/>
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        app:cornerRadius="20dp"
+                        android:backgroundTint="@color/pop"
+                        android:layout_marginTop="100dp"
+                        android:layout_marginStart="230dp"
+                        android:text="Open"/>
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView4"
                 android:layout_width="350dp"
-                android:layout_height="190dp"
-                android:layout_margin="27dp"
-                android:layout_marginStart="60dp"
+                android:layout_height="160dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="27dp"
                 app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="15dp"
-                app:cardElevation="8dp" />
+                app:cardElevation="8dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Daily Activities"
+                        android:textColor="@color/dark"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="115dp"/>
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        app:cornerRadius="20dp"
+                        android:backgroundTint="@color/pop"
+                        android:layout_marginTop="100dp"
+                        android:layout_marginStart="230dp"
+                        android:text="Open"/>
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView5"
                 android:layout_width="350dp"
-                android:layout_height="190dp"
-                android:layout_margin="27dp"
-                android:layout_marginStart="60dp"
+                android:layout_height="160dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="27dp"
                 app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="15dp"
-                app:cardElevation="8dp"
-                />
+                app:cardElevation="8dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mental Stability"
+                        android:textColor="@color/dark"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="120dp"/>
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        app:cornerRadius="20dp"
+                        android:backgroundTint="@color/pop"
+                        android:layout_marginTop="100dp"
+                        android:layout_marginStart="230dp"
+                        android:text="Open"/>
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
 
         </LinearLayout>
     </ScrollView>
