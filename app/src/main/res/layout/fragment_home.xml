@@ -27,7 +27,7 @@
                     style="@style/greeting_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="35dp"
+                    android:layout_marginStart="35dp"
                     android:layout_marginTop="40sp"
                     android:paddingBottom="10dp"
                     android:text="@string/greeting"
@@ -41,7 +41,7 @@
                     android:id="@+id/profile_background"
                     android:layout_width="70dp"
                     android:layout_height="70dp"
-                    android:layout_marginLeft="300dp"
+                    android:layout_marginStart="300dp"
                     android:layout_marginTop="45dp"
                     android:background="@drawable/ellipse_4"
                     tools:ignore="MissingConstraints" />
@@ -50,7 +50,7 @@
                     android:id="@+id/profile_image"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    android:layout_marginLeft="305dp"
+                    android:layout_marginStart="305dp"
                     android:layout_marginTop="50dp"
                     android:background="@drawable/profileim"
                     tools:ignore="MissingConstraints" />
@@ -176,7 +176,52 @@
                 android:layout_marginStart="60dp"
                 app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="15dp"
-                app:cardElevation="8dp" />
+                app:cardElevation="8dp" >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Student Affairs"
+                        android:textColor="@color/dark"
+                        android:textStyle="bold"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="190dp"
+                        android:textSize="15dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hours: 8:30am-5pm"
+                        android:textColor="@color/dark"
+                        android:textStyle="bold"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="215dp"
+                        android:textSize="13dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="(843) 953-5522"
+                        android:textColor="@color/pop"
+                        android:textStyle="bold"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="237dp"
+                        android:textSize="13dp"
+                        />
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="230dp"
+                        android:layout_marginTop="200dp"
+                        android:text="Open"
+                        android:backgroundTint="@color/pop"
+                        app:cornerRadius="20dp"
+                        />
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView4"
@@ -186,7 +231,52 @@
                 android:layout_marginStart="60dp"
                 app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="15dp"
-                app:cardElevation="8dp" />
+                app:cardElevation="8dp" >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Career Center"
+                        android:textColor="@color/dark"
+                        android:textStyle="bold"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="190dp"
+                        android:textSize="15dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hours: 8:30am-5pm"
+                        android:textColor="@color/dark"
+                        android:textStyle="bold"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="215dp"
+                        android:textSize="13dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="(843) 953-5692"
+                        android:textColor="@color/pop"
+                        android:textStyle="bold"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="237dp"
+                        android:textSize="13dp"
+                        />
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="230dp"
+                        android:layout_marginTop="200dp"
+                        android:text="Open"
+                        android:backgroundTint="@color/pop"
+                        app:cornerRadius="20dp"
+                        />
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
 
         </LinearLayout>
     </ScrollView>
