@@ -12,4 +12,8 @@
     <string name="post_q6">How relaxed were you today?</string>
     <string name="post_button">Post</string>
     <string name="search">Search</string>
+    <string name="home_title_1">Student Health Services</string>
+    <string name="home_title_1_hours">Hours: 8:30am-5pm</string>
+    <string name="home_title_1_number">(843) 953-5520</string>
+    <string name="open_button">Open</string>
 </resources>
