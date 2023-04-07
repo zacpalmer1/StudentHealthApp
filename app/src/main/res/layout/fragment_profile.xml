@@ -18,6 +18,7 @@
             android:layout_marginStart="35dp"
             android:layout_marginTop="60sp"
             android:paddingBottom="10dp"
+            android:textSize="@dimen/l_size"
             android:text="@string/profile_greeting"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.10"

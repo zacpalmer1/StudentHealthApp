@@ -27,6 +27,7 @@
                     android:layout_marginStart="35dp"
                     android:layout_marginTop="40sp"
                     android:paddingBottom="10dp"
+                    android:textSize="@dimen/l_size"
                     android:text="@string/greeting"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.10"
