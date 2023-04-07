@@ -6,8 +6,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Post">
 
-    <!-- TODO: Update blank fragment layout -->
-
     <View
         android:id="@+id/sun"
         android:layout_width="200dp"
@@ -26,7 +24,7 @@
         android:layout_height="wrap_content"
         android:text="@string/post"
         android:textColor="@color/white"
-        android:textSize="35dp"
+        android:textSize="@dimen/l_size"
         android:layout_marginTop="35dp"
         android:layout_marginStart="30dp"
         android:textStyle="bold"/>
@@ -57,6 +55,7 @@
                 android:textStyle="bold"
                 />
             <RadioGroup
+                android:id="@+id/question_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
@@ -66,19 +65,19 @@
                 <RadioButton
                     android:layout_width="80dp"
                     android:layout_height="60dp"
-                    android:text="bad"/>
+                    android:text="@string/bad"/>
                 <RadioButton
                     android:layout_width="80dp"
                     android:layout_height="60dp"
-                    android:text="okay"/>
+                    android:text="@string/okay"/>
                 <RadioButton
                     android:layout_width="80dp"
                     android:layout_height="60dp"
-                    android:text="good"/>
+                    android:text="@string/good"/>
                 <RadioButton
                     android:layout_width="80dp"
                     android:layout_height="60dp"
-                    android:text="great"/>
+                    android:text="@string/great"/>
 
             </RadioGroup>
             <TextView
@@ -92,6 +91,7 @@
                 android:textStyle="bold"
                 />
             <RadioGroup
+                android:id="@+id/question_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
@@ -101,19 +101,19 @@
                 <RadioButton
                     android:layout_width="80dp"
                     android:layout_height="60dp"
-                    android:text="bad"/>
+                    android:text="@string/bad"/>
                 <RadioButton
                     android:layout_width="80dp"
                     android:layout_height="60dp"
-                    android:text="okay"/>
+                    android:text="@string/okay"/>
                 <RadioButton
                     android:layout_width="80dp"
                     android:layout_height="60dp"
-                    android:text="good"/>
+                    android:text="@string/good"/>
                 <RadioButton
                     android:layout_width="80dp"
                     android:layout_height="60dp"
-                    android:text="great"/>
+                    android:text="@string/great"/>
 
             </RadioGroup>
 
@@ -129,6 +129,7 @@
                 />
 
             <RadioGroup
+                android:id="@+id/question_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
@@ -138,19 +139,19 @@
                 <RadioButton
                     android:layout_width="80dp"
                     android:layout_height="60dp"
-                    android:text="bad"/>
+                    android:text="@string/bad"/>
                 <RadioButton
                     android:layout_width="80dp"
                     android:layout_height="60dp"
-                    android:text="okay"/>
+                    android:text="@string/okay"/>
                 <RadioButton
                     android:layout_width="80dp"
                     android:layout_height="60dp"
-                    android:text="good"/>
+                    android:text="@string/good"/>
                 <RadioButton
                     android:layout_width="80dp"
                     android:layout_height="60dp"
-                    android:text="great"/>
+                    android:text="@string/great"/>
 
             </RadioGroup>
 
@@ -165,6 +166,7 @@
                 android:textStyle="bold"/>
 
             <RadioGroup
+                android:id="@+id/question_4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
@@ -174,19 +176,19 @@
                 <RadioButton
                     android:layout_width="80dp"
                     android:layout_height="60dp"
-                    android:text="bad"/>
+                    android:text="@string/bad"/>
                 <RadioButton
                     android:layout_width="80dp"
                     android:layout_height="60dp"
-                    android:text="okay"/>
+                    android:text="@string/okay"/>
                 <RadioButton
                     android:layout_width="80dp"
                     android:layout_height="60dp"
-                    android:text="good"/>
+                    android:text="@string/good"/>
                 <RadioButton
                     android:layout_width="80dp"
                     android:layout_height="60dp"
-                    android:text="great"/>
+                    android:text="@string/great"/>
 
             </RadioGroup>
 
@@ -202,6 +204,7 @@
                 />
 
             <RadioGroup
+                android:id="@+id/question_5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
@@ -211,19 +214,19 @@
                 <RadioButton
                     android:layout_width="80dp"
                     android:layout_height="60dp"
-                    android:text="bad"/>
+                    android:text="@string/bad"/>
                 <RadioButton
                     android:layout_width="80dp"
                     android:layout_height="60dp"
-                    android:text="okay"/>
+                    android:text="@string/okay"/>
                 <RadioButton
                     android:layout_width="80dp"
                     android:layout_height="60dp"
-                    android:text="good"/>
+                    android:text="@string/good"/>
                 <RadioButton
                     android:layout_width="80dp"
                     android:layout_height="60dp"
-                    android:text="great"/>
+                    android:text="@string/great"/>
 
             </RadioGroup>
 
@@ -238,6 +241,7 @@
                 android:textStyle="bold"
                 />
             <RadioGroup
+                android:id="@+id/question_6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
@@ -247,19 +251,19 @@
                 <RadioButton
                     android:layout_width="80dp"
                     android:layout_height="60dp"
-                    android:text="bad"/>
+                    android:text="@string/bad"/>
                 <RadioButton
                     android:layout_width="80dp"
                     android:layout_height="60dp"
-                    android:text="okay"/>
+                    android:text="@string/okay"/>
                 <RadioButton
                     android:layout_width="80dp"
                     android:layout_height="60dp"
-                    android:text="good"/>
+                    android:text="@string/good"/>
                 <RadioButton
                     android:layout_width="80dp"
                     android:layout_height="60dp"
-                    android:text="great"/>
+                    android:text="@string/great"/>
 
             </RadioGroup>
             <Button

@@ -32,4 +32,8 @@
     <string name="time_management">Time Management</string>
     <string name="breathing_exercises">Breathing Exercises</string>
     <string name="daily_activities">Daily Activities</string>
+    <string name="bad">bad</string>
+    <string name="okay">okay</string>
+    <string name="good">good</string>
+    <string name="great">great</string>
 </resources>
