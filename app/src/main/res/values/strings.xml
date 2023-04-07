@@ -14,7 +14,6 @@
     <string name="search">Search</string>
     <string name="student_health_services">Student Health Services</string>
     <string name="home_title_1_hours">Hours: 8:30am-5pm</string>
-    <string name="home_title_1_number">(843) 953-5520</string>
     <string name="open_button">Open</string>
     <string name="profile_greeting">Zac Palmer</string>
     <string name="call_button"> Call </string>
@@ -24,7 +23,7 @@
     <string name="hours_8_30am_5pm">Hours: 8:30am-5pm</string>
     <string name="career_center">Career Center</string>
     <string name="post">Post</string>
-    <string name="ficancial_aid_office">Ficancial Aid Office</string>
+    <string name="financial_aid_office">Financial Aid Office</string>
     <string name="library">Library</string>
     <string name="wellness_guides">Wellness Guides</string>
     <string name="mental_stability">Mental Stability</string>
@@ -36,4 +35,9 @@
     <string name="okay">okay</string>
     <string name="good">good</string>
     <string name="great">great</string>
+    <string name="student_affairs_photo">Student Affairs Photo</string>
+    <string name="suicide_hotline_photo">Suicide Hotline Photo</string>
+    <string name="student_health_photo">Student Health Photo</string>
+    <string name="profile_photo">Profile Photo</string>
+    <string name="career_center_photo">Career Center Photo</string>
 </resources>

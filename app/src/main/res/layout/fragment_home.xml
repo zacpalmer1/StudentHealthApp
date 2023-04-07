@@ -50,7 +50,8 @@
                     android:layout_height="93dp"
                     android:layout_marginStart="288dp"
                     android:layout_marginTop="34dp"
-                    android:src="@drawable/img_4573_2" />
+                    android:src="@drawable/img_4573_2"
+                    android:contentDescription="@string/profile_photo" />
 
             </RelativeLayout>
 
@@ -75,7 +76,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingBottom="73dp"
-                        android:src="@drawable/student_services" />
+                        android:src="@drawable/student_services"
+                        android:contentDescription="@string/student_health_photo" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -129,7 +131,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingBottom="73dp"
-                        android:src="@drawable/hotline" />
+                        android:src="@drawable/hotline"
+                        android:contentDescription="@string/suicide_hotline_photo" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -160,7 +163,6 @@
                         android:text="@string/call_button"
                         app:cornerRadius="20dp" />
 
-
                 </RelativeLayout>
 
             </androidx.cardview.widget.CardView>
@@ -184,7 +186,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingBottom="73dp"
-                        android:src="@drawable/harbor" />
+                        android:src="@drawable/harbor"
+                        android:contentDescription="@string/student_affairs_photo" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -239,7 +242,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingBottom="72dp"
-                        android:src="@drawable/student" />
+                        android:src="@drawable/student"
+                        android:contentDescription="@string/career_center_photo" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -269,7 +273,6 @@
                         android:backgroundTint="@color/pop"
                         android:text="@string/call_button"
                         app:cornerRadius="20dp" />
-
 
                 </RelativeLayout>
 
