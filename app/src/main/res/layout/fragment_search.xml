@@ -13,7 +13,7 @@
         android:layout_marginTop="35dp"
         android:text="@string/search"
         android:textColor="@color/white"
-        android:textSize="35dp"
+        android:textSize="@dimen/l_size"
         android:textStyle="bold" />
 
     <androidx.cardview.widget.CardView
@@ -61,9 +61,9 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
                         android:layout_marginTop="30dp"
-                        android:text="Student Health Center"
+                        android:text="@string/student_health_services"
                         android:textColor="@color/dark"
-                        android:textSize="15dp"
+                        android:textSize="@dimen/m_size"
                         android:textStyle="bold" />
 
                     <Button
@@ -98,9 +98,9 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
                         android:layout_marginTop="30dp"
-                        android:text="Suicide Hotline"
+                        android:text="@string/suicide_hotline"
                         android:textColor="@color/dark"
-                        android:textSize="15dp"
+                        android:textSize="@dimen/m_size"
                         android:textStyle="bold" />
 
                     <Button
@@ -135,9 +135,9 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
                         android:layout_marginTop="30dp"
-                        android:text="Ficancial Aid Office"
+                        android:text="@string/ficancial_aid_office"
                         android:textColor="@color/dark"
-                        android:textSize="15dp"
+                        android:textSize="@dimen/m_size"
                         android:textStyle="bold" />
 
                     <Button
@@ -172,9 +172,9 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
                         android:layout_marginTop="30dp"
-                        android:text="Library"
+                        android:text="@string/library"
                         android:textColor="@color/dark"
-                        android:textSize="15dp"
+                        android:textSize="@dimen/m_size"
                         android:textStyle="bold" />
 
                     <Button

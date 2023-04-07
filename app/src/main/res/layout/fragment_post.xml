@@ -24,7 +24,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Post"
+        android:text="@string/post"
         android:textColor="@color/white"
         android:textSize="35dp"
         android:layout_marginTop="35dp"

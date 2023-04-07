@@ -6,13 +6,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Wellness">
 
-    <!-- TODO: Update blank fragment layout -->
-
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:ignore="ScrollViewCount">
+        tools:ignore="ScrollViewCount,UselessParent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -23,9 +20,9 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Wellness Guides"
+                android:text="@string/wellness_guides"
                 android:textColor="@color/white"
-                android:textSize="35dp"
+                android:textSize="@dimen/l_size"
                 android:layout_marginTop="35dp"
                 android:layout_marginStart="30dp"
                 android:textStyle="bold"/>
@@ -39,18 +36,21 @@
                 app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="15dp"
                 app:cardElevation="8dp">
+
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="Mental Stability"
+                        android:text="@string/mental_stability"
                         android:textColor="@color/dark"
                         android:textStyle="bold"
-                        android:textSize="15dp"
+                        android:textSize="@dimen/m_size"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="115dp"/>
+
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="50dp"
@@ -58,10 +58,12 @@
                         android:backgroundTint="@color/pop"
                         android:layout_marginTop="100dp"
                         android:layout_marginStart="230dp"
-                        android:text="Open"/>
+                        android:text="@string/open"/>
 
                 </RelativeLayout>
+
             </androidx.cardview.widget.CardView>
+
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView2"
                 android:layout_width="350dp"
@@ -71,18 +73,21 @@
                 app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="15dp"
                 app:cardElevation="8dp">
+
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="Time Management"
+                        android:text="@string/time_management"
                         android:textColor="@color/dark"
                         android:textStyle="bold"
-                        android:textSize="15dp"
+                        android:textSize="@dimen/m_size"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="115dp"/>
+
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="50dp"
@@ -90,9 +95,10 @@
                         android:backgroundTint="@color/pop"
                         android:layout_marginTop="100dp"
                         android:layout_marginStart="230dp"
-                        android:text="Open"/>
+                        android:text="@string/open_button"/>
 
                 </RelativeLayout>
+
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -104,18 +110,21 @@
                 app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="15dp"
                 app:cardElevation="8dp">
+
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="Breathing Exercises"
+                        android:text="@string/breathing_exercises"
                         android:textColor="@color/dark"
                         android:textStyle="bold"
-                        android:textSize="15dp"
+                        android:textSize="@dimen/m_size"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="115dp"/>
+
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="50dp"
@@ -123,9 +132,10 @@
                         android:backgroundTint="@color/pop"
                         android:layout_marginTop="100dp"
                         android:layout_marginStart="230dp"
-                        android:text="Open"/>
+                        android:text="@string/open_button"/>
 
                 </RelativeLayout>
+
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -137,18 +147,21 @@
                 app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="15dp"
                 app:cardElevation="8dp">
+
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="Daily Activities"
+                        android:text="@string/daily_activities"
                         android:textColor="@color/dark"
                         android:textStyle="bold"
-                        android:textSize="15dp"
+                        android:textSize="@dimen/m_size"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="115dp"/>
+
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="50dp"
@@ -156,9 +169,10 @@
                         android:backgroundTint="@color/pop"
                         android:layout_marginTop="100dp"
                         android:layout_marginStart="230dp"
-                        android:text="Open"/>
+                        android:text="@string/open_button"/>
 
                 </RelativeLayout>
+
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -170,18 +184,21 @@
                 app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="15dp"
                 app:cardElevation="8dp">
+
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="Mental Stability"
+                        android:text="@string/mental_stability"
                         android:textColor="@color/dark"
                         android:textStyle="bold"
-                        android:textSize="15dp"
+                        android:textSize="@dimen/m_size"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="120dp"/>
+
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="50dp"
@@ -189,12 +206,14 @@
                         android:backgroundTint="@color/pop"
                         android:layout_marginTop="100dp"
                         android:layout_marginStart="230dp"
-                        android:text="Open"/>
+                        android:text="@string/open_button"/>
 
                 </RelativeLayout>
+
             </androidx.cardview.widget.CardView>
 
         </LinearLayout>
+
     </ScrollView>
 
 </FrameLayout>

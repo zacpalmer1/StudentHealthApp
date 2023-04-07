@@ -15,7 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-<!-- Hello -->
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
@@ -74,9 +74,9 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="205dp"
-                        android:text="@string/home_title_1"
+                        android:text="@string/student_health_services"
                         android:textColor="@color/dark"
-                        android:textSize="15dp"
+                        android:textSize="@dimen/m_size"
                         android:textStyle="bold" />
 
                     <TextView
@@ -86,7 +86,7 @@
                         android:layout_marginTop="230dp"
                         android:text="@string/home_title_1_hours"
                         android:textColor="@color/dark"
-                        android:textSize="13dp"
+                        android:textSize="@dimen/s_size"
                         android:textStyle="bold" />
 
                     <Button
@@ -121,9 +121,9 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="205dp"
-                        android:text="Suicide Hotline"
+                        android:text="@string/suicide_hotline"
                         android:textColor="@color/dark"
-                        android:textSize="15dp"
+                        android:textSize="@dimen/m_size"
                         android:textStyle="bold" />
 
                     <TextView
@@ -131,9 +131,9 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="230dp"
-                        android:text="Hours: 24/7"
+                        android:text="@string/hours_24_7"
                         android:textColor="@color/dark"
-                        android:textSize="13dp"
+                        android:textSize="@dimen/s_size"
                         android:textStyle="bold" />
 
                     <Button
@@ -168,9 +168,9 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="205dp"
-                        android:text="Student Affairs"
+                        android:text="@string/student_affairs"
                         android:textColor="@color/dark"
-                        android:textSize="15dp"
+                        android:textSize="@dimen/m_size"
                         android:textStyle="bold" />
 
                     <TextView
@@ -178,9 +178,9 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="230dp"
-                        android:text="Hours: 8:30am-5pm"
+                        android:text="@string/hours_8_30am_5pm"
                         android:textColor="@color/dark"
-                        android:textSize="13dp"
+                        android:textSize="@dimen/s_size"
                         android:textStyle="bold" />
 
                     <Button
@@ -215,9 +215,9 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="205dp"
-                        android:text="Career Center"
+                        android:text="@string/career_center"
                         android:textColor="@color/dark"
-                        android:textSize="15dp"
+                        android:textSize="@dimen/m_size"
                         android:textStyle="bold" />
 
                     <TextView
@@ -225,9 +225,9 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="230dp"
-                        android:text="Hours: 8:30am-5pm"
+                        android:text="@string/hours_8_30am_5pm"
                         android:textColor="@color/dark"
-                        android:textSize="13dp"
+                        android:textSize="@dimen/s_size"
                         android:textStyle="bold" />
 
                     <Button
