@@ -44,14 +44,14 @@
                     android:background="@drawable/ellipse_4"
                     tools:ignore="MissingConstraints" />
 
-                <View
-                    android:id="@+id/profile_image"
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
-                    android:layout_marginStart="305dp"
-                    android:layout_marginTop="50dp"
-                    android:background="@drawable/profileim"
-                    tools:ignore="MissingConstraints" />
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="93dp"
+                    android:layout_height="93dp"
+                    android:layout_marginStart="288dp"
+                    android:layout_marginTop="34dp"
+                    android:src="@drawable/img_4573_2" />
+
             </RelativeLayout>
 
             <androidx.cardview.widget.CardView
@@ -59,7 +59,7 @@
                 android:layout_width="350dp"
                 android:layout_height="270dp"
                 android:layout_marginStart="27dp"
-                android:layout_marginTop="27dp"
+                android:layout_marginTop="15dp"
                 android:layout_marginEnd="27dp"
                 android:layout_marginBottom="27dp"
                 app:cardBackgroundColor="@color/white"
@@ -70,11 +70,18 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="73dp"
+                        android:src="@drawable/student_services" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
-                        android:layout_marginTop="205dp"
+                        android:layout_marginTop="210dp"
                         android:text="@string/student_health_services"
                         android:textColor="@color/dark"
                         android:textSize="@dimen/m_size"
@@ -84,7 +91,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
-                        android:layout_marginTop="230dp"
+                        android:layout_marginTop="235dp"
                         android:text="@string/home_title_1_hours"
                         android:textColor="@color/dark"
                         android:textSize="@dimen/s_size"
@@ -94,7 +101,7 @@
                         android:layout_width="100dp"
                         android:layout_height="50dp"
                         android:layout_marginStart="230dp"
-                        android:layout_marginTop="200dp"
+                        android:layout_marginTop="205dp"
                         android:backgroundTint="@color/pop"
                         android:text="@string/call_button"
                         app:cornerRadius="20dp" />
@@ -117,11 +124,18 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="73dp"
+                        android:src="@drawable/hotline" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
-                        android:layout_marginTop="205dp"
+                        android:layout_marginTop="210dp"
                         android:text="@string/suicide_hotline"
                         android:textColor="@color/dark"
                         android:textSize="@dimen/m_size"
@@ -131,7 +145,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
-                        android:layout_marginTop="230dp"
+                        android:layout_marginTop="235dp"
                         android:text="@string/hours_24_7"
                         android:textColor="@color/dark"
                         android:textSize="@dimen/s_size"
@@ -141,10 +155,11 @@
                         android:layout_width="100dp"
                         android:layout_height="50dp"
                         android:layout_marginStart="230dp"
-                        android:layout_marginTop="200dp"
+                        android:layout_marginTop="205dp"
                         android:backgroundTint="@color/pop"
                         android:text="@string/call_button"
                         app:cornerRadius="20dp" />
+
 
                 </RelativeLayout>
 
@@ -164,11 +179,18 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="73dp"
+                        android:src="@drawable/harbor" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
-                        android:layout_marginTop="205dp"
+                        android:layout_marginTop="210dp"
                         android:text="@string/student_affairs"
                         android:textColor="@color/dark"
                         android:textSize="@dimen/m_size"
@@ -178,7 +200,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
-                        android:layout_marginTop="230dp"
+                        android:layout_marginTop="235dp"
                         android:text="@string/hours_8_30am_5pm"
                         android:textColor="@color/dark"
                         android:textSize="@dimen/s_size"
@@ -188,10 +210,11 @@
                         android:layout_width="100dp"
                         android:layout_height="50dp"
                         android:layout_marginStart="230dp"
-                        android:layout_marginTop="200dp"
+                        android:layout_marginTop="205dp"
                         android:backgroundTint="@color/pop"
                         android:text="@string/call_button"
                         app:cornerRadius="20dp" />
+
 
                 </RelativeLayout>
 
@@ -211,11 +234,18 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="72dp"
+                        android:src="@drawable/student" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
-                        android:layout_marginTop="205dp"
+                        android:layout_marginTop="210dp"
                         android:text="@string/career_center"
                         android:textColor="@color/dark"
                         android:textSize="@dimen/m_size"
@@ -225,7 +255,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
-                        android:layout_marginTop="230dp"
+                        android:layout_marginTop="235dp"
                         android:text="@string/hours_8_30am_5pm"
                         android:textColor="@color/dark"
                         android:textSize="@dimen/s_size"
@@ -235,10 +265,11 @@
                         android:layout_width="100dp"
                         android:layout_height="50dp"
                         android:layout_marginStart="230dp"
-                        android:layout_marginTop="200dp"
+                        android:layout_marginTop="205dp"
                         android:backgroundTint="@color/pop"
                         android:text="@string/call_button"
                         app:cornerRadius="20dp" />
+
 
                 </RelativeLayout>
 

@@ -35,14 +35,13 @@
             android:background="@drawable/ellipse_4"
             tools:ignore="MissingConstraints" />
 
-        <View
-            android:id="@+id/profile_image"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_marginStart="305dp"
-            android:layout_marginTop="50dp"
-            android:background="@drawable/profileim"
-            tools:ignore="MissingConstraints" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="93dp"
+            android:layout_height="93dp"
+            android:layout_marginStart="288dp"
+            android:layout_marginTop="34dp"
+            android:src="@drawable/img_4573_2" />
     </RelativeLayout>
 
     <androidx.cardview.widget.CardView
