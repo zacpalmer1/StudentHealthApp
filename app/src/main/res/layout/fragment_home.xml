@@ -73,7 +73,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
-                        android:layout_marginTop="190dp"
+                        android:layout_marginTop="205dp"
                         android:text="@string/home_title_1"
                         android:textColor="@color/dark"
                         android:textSize="15dp"
@@ -83,19 +83,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
-                        android:layout_marginTop="215dp"
+                        android:layout_marginTop="230dp"
                         android:text="@string/home_title_1_hours"
                         android:textColor="@color/dark"
-                        android:textSize="13dp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginTop="237dp"
-                        android:text="@string/home_title_1_number"
-                        android:textColor="@color/pop"
                         android:textSize="13dp"
                         android:textStyle="bold" />
 
@@ -105,7 +95,7 @@
                         android:layout_marginStart="230dp"
                         android:layout_marginTop="200dp"
                         android:backgroundTint="@color/pop"
-                        android:text="@string/open_button"
+                        android:text="@string/call_button"
                         app:cornerRadius="20dp" />
 
                 </RelativeLayout>
@@ -130,7 +120,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
-                        android:layout_marginTop="190dp"
+                        android:layout_marginTop="205dp"
                         android:text="Suicide Hotline"
                         android:textColor="@color/dark"
                         android:textSize="15dp"
@@ -140,19 +130,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
-                        android:layout_marginTop="215dp"
+                        android:layout_marginTop="230dp"
                         android:text="Hours: 24/7"
                         android:textColor="@color/dark"
-                        android:textSize="13dp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginTop="237dp"
-                        android:text="988"
-                        android:textColor="@color/pop"
                         android:textSize="13dp"
                         android:textStyle="bold" />
 
@@ -162,7 +142,7 @@
                         android:layout_marginStart="230dp"
                         android:layout_marginTop="200dp"
                         android:backgroundTint="@color/pop"
-                        android:text="@string/open_button"
+                        android:text="@string/call_button"
                         app:cornerRadius="20dp" />
 
                 </RelativeLayout>
@@ -187,7 +167,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
-                        android:layout_marginTop="190dp"
+                        android:layout_marginTop="205dp"
                         android:text="Student Affairs"
                         android:textColor="@color/dark"
                         android:textSize="15dp"
@@ -197,19 +177,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
-                        android:layout_marginTop="215dp"
+                        android:layout_marginTop="230dp"
                         android:text="Hours: 8:30am-5pm"
                         android:textColor="@color/dark"
-                        android:textSize="13dp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginTop="237dp"
-                        android:text="(843) 953-5522"
-                        android:textColor="@color/pop"
                         android:textSize="13dp"
                         android:textStyle="bold" />
 
@@ -219,7 +189,7 @@
                         android:layout_marginStart="230dp"
                         android:layout_marginTop="200dp"
                         android:backgroundTint="@color/pop"
-                        android:text="@string/open_button"
+                        android:text="@string/call_button"
                         app:cornerRadius="20dp" />
 
                 </RelativeLayout>
@@ -244,7 +214,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
-                        android:layout_marginTop="190dp"
+                        android:layout_marginTop="205dp"
                         android:text="Career Center"
                         android:textColor="@color/dark"
                         android:textSize="15dp"
@@ -254,19 +224,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
-                        android:layout_marginTop="215dp"
+                        android:layout_marginTop="230dp"
                         android:text="Hours: 8:30am-5pm"
                         android:textColor="@color/dark"
-                        android:textSize="13dp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginTop="237dp"
-                        android:text="(843) 953-5692"
-                        android:textColor="@color/pop"
                         android:textSize="13dp"
                         android:textStyle="bold" />
 
@@ -276,7 +236,7 @@
                         android:layout_marginStart="230dp"
                         android:layout_marginTop="200dp"
                         android:backgroundTint="@color/pop"
-                        android:text="@string/open_button"
+                        android:text="@string/call_button"
                         app:cornerRadius="20dp" />
 
                 </RelativeLayout>

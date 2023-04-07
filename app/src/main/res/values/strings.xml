@@ -17,4 +17,5 @@
     <string name="home_title_1_number">(843) 953-5520</string>
     <string name="open_button">Open</string>
     <string name="profile_greeting">Zac Palmer</string>
+    <string name="call_button"> Call </string>
 </resources>
