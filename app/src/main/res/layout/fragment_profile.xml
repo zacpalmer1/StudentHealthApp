@@ -7,13 +7,68 @@
     tools:context=".Profile">
 
     <!-- TODO: Update blank fragment layout -->
-
-
-    <TextView
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Profile"
-        android:layout_marginTop="320dp"
-        android:textAlignment="center"/>
+        android:layout_height="match_parent">
+
+        <TextView
+            style="@style/greeting_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="60sp"
+            android:paddingBottom="10dp"
+            android:text="@string/profile_greeting"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.10"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.5" />
+
+        <View
+            android:id="@+id/profile_background"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="300dp"
+            android:layout_marginTop="45dp"
+            android:background="@drawable/ellipse_4"
+            tools:ignore="MissingConstraints" />
+
+        <View
+            android:id="@+id/profile_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="305dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/profileim"
+            tools:ignore="MissingConstraints" />
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="147dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="27dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="8dp">
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="437dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="27dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="8dp">
+
+    </androidx.cardview.widget.CardView>
 
 </FrameLayout>
