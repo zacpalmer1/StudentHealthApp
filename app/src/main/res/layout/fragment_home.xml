@@ -76,7 +76,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingBottom="73dp"
-                        android:src="@drawable/student_services"
+                        android:src="@drawable/hotline"
                         android:contentDescription="@string/student_health_photo" />
 
                     <TextView
@@ -131,7 +131,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingBottom="73dp"
-                        android:src="@drawable/hotline"
+                        android:src="@drawable/second"
                         android:contentDescription="@string/suicide_hotline_photo" />
 
                     <TextView
@@ -139,7 +139,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="210dp"
-                        android:text="@string/suicide_hotline"
+                        android:text="@string/financial_aid_office"
                         android:textColor="@color/dark"
                         android:textSize="@dimen/m_size"
                         android:textStyle="bold" />
