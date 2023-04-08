@@ -30,7 +30,7 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView"
                 android:layout_width="350dp"
-                android:layout_height="160dp"
+                android:layout_height="200dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginStart="27dp"
                 app:cardBackgroundColor="@color/white"
@@ -41,6 +41,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="63dp"
+                        android:src="@drawable/cistern"
+                        android:contentDescription="@string/student_health_photo" />
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -49,14 +57,14 @@
                         android:textStyle="bold"
                         android:textSize="@dimen/m_size"
                         android:layout_marginStart="20dp"
-                        android:layout_marginTop="115dp"/>
+                        android:layout_marginTop="155dp"/>
 
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="50dp"
                         app:cornerRadius="20dp"
                         android:backgroundTint="@color/pop"
-                        android:layout_marginTop="100dp"
+                        android:layout_marginTop="140dp"
                         android:layout_marginStart="230dp"
                         android:text="@string/open"/>
 
@@ -67,7 +75,7 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView2"
                 android:layout_width="350dp"
-                android:layout_height="160dp"
+                android:layout_height="200dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginStart="27dp"
                 app:cardBackgroundColor="@color/white"
@@ -78,6 +86,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="63dp"
+                        android:src="@drawable/walking"
+                        android:contentDescription="@string/student_health_photo" />
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -86,14 +102,14 @@
                         android:textStyle="bold"
                         android:textSize="@dimen/m_size"
                         android:layout_marginStart="20dp"
-                        android:layout_marginTop="115dp"/>
+                        android:layout_marginTop="155dp"/>
 
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="50dp"
                         app:cornerRadius="20dp"
                         android:backgroundTint="@color/pop"
-                        android:layout_marginTop="100dp"
+                        android:layout_marginTop="140dp"
                         android:layout_marginStart="230dp"
                         android:text="@string/open_button"/>
 
@@ -104,7 +120,7 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView3"
                 android:layout_width="350dp"
-                android:layout_height="160dp"
+                android:layout_height="200dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginStart="27dp"
                 app:cardBackgroundColor="@color/white"
@@ -115,22 +131,30 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="63dp"
+                        android:src="@drawable/dog_jump"
+                        android:contentDescription="@string/student_health_photo" />
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="@string/breathing_exercises"
+                        android:text="@string/time_management"
                         android:textColor="@color/dark"
                         android:textStyle="bold"
                         android:textSize="@dimen/m_size"
                         android:layout_marginStart="20dp"
-                        android:layout_marginTop="115dp"/>
+                        android:layout_marginTop="155dp"/>
 
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="50dp"
                         app:cornerRadius="20dp"
                         android:backgroundTint="@color/pop"
-                        android:layout_marginTop="100dp"
+                        android:layout_marginTop="140dp"
                         android:layout_marginStart="230dp"
                         android:text="@string/open_button"/>
 
@@ -141,7 +165,7 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView4"
                 android:layout_width="350dp"
-                android:layout_height="160dp"
+                android:layout_height="200dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginStart="27dp"
                 app:cardBackgroundColor="@color/white"
@@ -152,22 +176,30 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="63dp"
+                        android:src="@drawable/selfie"
+                        android:contentDescription="@string/student_health_photo" />
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="@string/daily_activities"
+                        android:text="@string/time_management"
                         android:textColor="@color/dark"
                         android:textStyle="bold"
                         android:textSize="@dimen/m_size"
                         android:layout_marginStart="20dp"
-                        android:layout_marginTop="115dp"/>
+                        android:layout_marginTop="155dp"/>
 
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="50dp"
                         app:cornerRadius="20dp"
                         android:backgroundTint="@color/pop"
-                        android:layout_marginTop="100dp"
+                        android:layout_marginTop="140dp"
                         android:layout_marginStart="230dp"
                         android:text="@string/open_button"/>
 
@@ -178,7 +210,7 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView5"
                 android:layout_width="350dp"
-                android:layout_height="160dp"
+                android:layout_height="200dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginStart="27dp"
                 app:cardBackgroundColor="@color/white"
@@ -189,22 +221,30 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="63dp"
+                        android:src="@drawable/students_on_lawn"
+                        android:contentDescription="@string/student_health_photo" />
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="@string/mental_stability"
+                        android:text="@string/time_management"
                         android:textColor="@color/dark"
                         android:textStyle="bold"
                         android:textSize="@dimen/m_size"
                         android:layout_marginStart="20dp"
-                        android:layout_marginTop="120dp"/>
+                        android:layout_marginTop="155dp"/>
 
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="50dp"
                         app:cornerRadius="20dp"
                         android:backgroundTint="@color/pop"
-                        android:layout_marginTop="100dp"
+                        android:layout_marginTop="140dp"
                         android:layout_marginStart="230dp"
                         android:text="@string/open_button"/>
 
