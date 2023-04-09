@@ -40,4 +40,11 @@
     <string name="student_health_photo">Student Health Photo</string>
     <string name="profile_photo">Profile Photo</string>
     <string name="career_center_photo">Career Center Photo</string>
+    <string name="no">no</string>
+    <string name="permission_request_msg">permission request</string>
+    <string name="permission_request_title">permission request</string>
+    <string name="yes">yes</string>
+    <string name="permission_denied_title">permission denied</string>
+    <string name="permission_denied_msg">permission denied</string>
+    <string name="ok">ok</string>
 </resources>

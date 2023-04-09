@@ -100,6 +100,7 @@
                         android:textStyle="bold" />
 
                     <Button
+                        android:id="@+id/studentServices"
                         android:layout_width="100dp"
                         android:layout_height="50dp"
                         android:layout_marginStart="230dp"
@@ -155,6 +156,7 @@
                         android:textStyle="bold" />
 
                     <Button
+                        android:id="@+id/financialAid"
                         android:layout_width="100dp"
                         android:layout_height="50dp"
                         android:layout_marginStart="230dp"
@@ -210,6 +212,7 @@
                         android:textStyle="bold" />
 
                     <Button
+                        android:id="@+id/studentAffairs"
                         android:layout_width="100dp"
                         android:layout_height="50dp"
                         android:layout_marginStart="230dp"
@@ -266,6 +269,7 @@
                         android:textStyle="bold" />
 
                     <Button
+                        android:id="@+id/careerCenter"
                         android:layout_width="100dp"
                         android:layout_height="50dp"
                         android:layout_marginStart="230dp"
