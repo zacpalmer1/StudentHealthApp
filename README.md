@@ -14,7 +14,8 @@
   - Allow user to scroll though student services
   - Enable user to call any of services provided
 - Search Page (In progress)
-  - Allow user to search through and student services or wellness articles and either call service or open article
+  - Allow user to search through and find student services or wellness articles
+  - Allow user to either call student services or open articles
 - Post Page (In progress)
   - Create survey for students to log mental health
   - Generate score based on users answers
