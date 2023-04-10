@@ -3,7 +3,7 @@
 
 <img width="200" alt="Screenshot 2023-03-16 at 7 32 32 PM" src="https://user-images.githubusercontent.com/75393933/230697208-bdfce1fd-1132-4b4c-9d1a-44e90280b3ed.png">
 
-## Goals: (In progress)
+## Goals: 
 ### Overarching Goal:
 - Develop an app that enables college students to easily access various resources available to them as students.
 - Create a mobile application that provides college students with a curated collection of articles and resources related to mental health.
@@ -13,17 +13,17 @@
 - Home Page
   - Allow user to scroll though student services
   - Enable user to call any of services provided
-- Search Page
+- Search Page (In progress)
   - Allow user to search through and student services or wellness articles and either call service or open article
-- Post Page
+- Post Page (In progress)
   - Create survey for students to log mental health
   - Generate score based on users answers
   - Prompt user with Toast displaying daily mental health score
   - Log score into database
-- Wellness Page
+- Wellness Page (In progress)
   - Allow users to scroll from a selection of wellness articles
   - Allow user to open article from application into browser of choice
-- Profile Page
+- Profile Page (In progress)
   - Visualize data saved in database to display weekly mental health statistics logged form user servey in Post Page
   - Visualize data saved in database to display monthly mental health statistics logged form user servey in Post Page
 ## In App Screenshots:
