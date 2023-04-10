@@ -58,7 +58,7 @@
                     android:textSize="@dimen/xs_size"
                     android:background="@null"
                     android:textColor="@color/black"
-                    android:layout_marginStart="45dp"/>
+                    android:layout_marginStart="40dp"/>
 
             </androidx.cardview.widget.CardView>
 
