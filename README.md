@@ -1,5 +1,5 @@
 # StudentHealthApp
-An application build for Android that allows users to access Student Health resources and track mental health. 
+### Final project for CSCI 370: Mobile Application Development
 
 <img width="200" alt="Screenshot 2023-03-16 at 7 32 32 PM" src="https://user-images.githubusercontent.com/75393933/230697208-bdfce1fd-1132-4b4c-9d1a-44e90280b3ed.png">
 
