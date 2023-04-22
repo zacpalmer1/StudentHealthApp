@@ -13,14 +13,14 @@
 ### Home Page
   - Allow user to scroll though student services
   - Enable user to call any of services provided 
- 
-  <img width="250" alt="Screenshot 2023-04-07 at 5 23 09 PM" src="https://user-images.githubusercontent.com/75393933/230749046-c32b36af-4e8b-46b5-b75d-d9f9a939f66d.png"> 
+  
+  <img width="250" alt="Screenshot 2023-04-07 at 5 23 09 PM" src="https://user-images.githubusercontent.com/75393933/233763317-a5fef824-dd9e-43f5-93e7-9632c9c52f5b.gif"> 
   
 ### Search Page 
   - Allow user to search through and find student services or wellness articles
   - Allow user to either call student services or open articles
-  
-  <img width="250" alt="Screenshot 2023-04-21 at 11 34 17 PM" src="https://user-images.githubusercontent.com/75393933/233760007-3e872104-ccc4-4150-9908-6a281cf68d76.png">
+
+  <img width="250" alt="Screenshot 2023-04-21 at 11 34 17 PM" src="https://user-images.githubusercontent.com/75393933/233763417-f68ca84d-aee7-44ed-b45f-68fc4c2153ea.gif">
 
 ### Post Page (In progress)
   - Create survey for students to log mental health
