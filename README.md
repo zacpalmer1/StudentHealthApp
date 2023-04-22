@@ -29,3 +29,8 @@
   - Visualize data saved in database to display monthly mental health statistics logged form user servey in Post Page
 ## In App Screenshots:
 <img width="250" alt="Screenshot 2023-04-07 at 5 23 09 PM" src="https://user-images.githubusercontent.com/75393933/230749046-c32b36af-4e8b-46b5-b75d-d9f9a939f66d.png">  <img width="250" alt="Screenshot 2023-04-07 at 5 23 09 PM" src="https://user-images.githubusercontent.com/75393933/230749001-bc37a296-e141-4537-a6df-d745ba452021.png">       <img width="250" alt="Screenshot 2023-04-07 at 5 23 09 PM" src="https://user-images.githubusercontent.com/75393933/230692698-08e32924-ea3c-4a7a-86a0-8a64ec35d3f9.png"> <img width="250" alt="Screenshot 2023-04-07 at 5 23 09 PM" src="https://user-images.githubusercontent.com/75393933/230696520-94f3c0f8-7461-4a9c-9205-01c730367ff6.png">
+
+## Languages and API's
+- Kotlin
+- XML
+- Firebase
