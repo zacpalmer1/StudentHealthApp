@@ -20,7 +20,8 @@
   - Allow user to search through and find student services or wellness articles
   - Allow user to either call student services or open articles
   
-  <img width="250" alt="Screenshot 2023-04-07 at 5 23 09 PM" src="https://user-images.githubusercontent.com/75393933/230749001-bc37a296-e141-4537-a6df-d745ba452021.png">    
+  <img width="250" alt="Screenshot 2023-04-21 at 11 22 54 PM" src="https://user-images.githubusercontent.com/75393933/233759327-aad9c213-6d83-4985-83cf-871a5523d21b.png">
+
   
 ### Post Page (In progress)
   - Create survey for students to log mental health
