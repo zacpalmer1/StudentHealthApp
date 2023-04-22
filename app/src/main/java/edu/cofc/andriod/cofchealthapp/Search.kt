@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import edu.cofc.andriod.cofchealthapp.databinding.FragmentSearchBinding
 
+
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
 private const val ARG_PARAM1 = "param1"
@@ -39,6 +40,8 @@ class Search : Fragment() {
         return inflater.inflate(R.layout.fragment_search, container, false)
 
     }
+    // Class for sorting data
+
     companion object {
         /**
          * Use this factory method to create a new instance of

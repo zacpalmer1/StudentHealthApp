@@ -47,4 +47,6 @@
     <string name="permission_denied_title">permission denied</string>
     <string name="permission_denied_msg">permission denied</string>
     <string name="ok">ok</string>
+    <string name="managing_stress">Managing Stress</string>
+    <string name="healthy_study_habits">Healthy Study Habits</string>
 </resources>

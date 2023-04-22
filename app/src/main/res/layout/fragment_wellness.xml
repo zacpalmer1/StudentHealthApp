@@ -60,6 +60,7 @@
                         android:layout_marginTop="155dp"/>
 
                     <Button
+                        android:id="@+id/link1"
                         android:layout_width="100dp"
                         android:layout_height="50dp"
                         app:cornerRadius="20dp"
@@ -105,6 +106,7 @@
                         android:layout_marginTop="155dp"/>
 
                     <Button
+                        android:id="@+id/link2"
                         android:layout_width="100dp"
                         android:layout_height="50dp"
                         app:cornerRadius="20dp"
@@ -142,7 +144,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="@string/time_management"
+                        android:text="@string/managing_stress"
                         android:textColor="@color/dark"
                         android:textStyle="bold"
                         android:textSize="@dimen/m_size"
@@ -150,6 +152,7 @@
                         android:layout_marginTop="155dp"/>
 
                     <Button
+                        android:id="@+id/link3"
                         android:layout_width="100dp"
                         android:layout_height="50dp"
                         app:cornerRadius="20dp"
@@ -187,7 +190,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="@string/time_management"
+                        android:text="@string/healthy_study_habits"
                         android:textColor="@color/dark"
                         android:textStyle="bold"
                         android:textSize="@dimen/m_size"
@@ -195,6 +198,7 @@
                         android:layout_marginTop="155dp"/>
 
                     <Button
+                        android:id="@+id/link4"
                         android:layout_width="100dp"
                         android:layout_height="50dp"
                         app:cornerRadius="20dp"
@@ -232,7 +236,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="@string/time_management"
+                        android:text="Friendship Guides"
                         android:textColor="@color/dark"
                         android:textStyle="bold"
                         android:textSize="@dimen/m_size"
@@ -240,6 +244,7 @@
                         android:layout_marginTop="155dp"/>
 
                     <Button
+                        android:id="@+id/link5"
                         android:layout_width="100dp"
                         android:layout_height="50dp"
                         app:cornerRadius="20dp"
