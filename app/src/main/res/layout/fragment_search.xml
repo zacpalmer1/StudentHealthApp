@@ -5,17 +5,33 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Search">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/search"
+            android:textColor="@color/white"
+            android:textSize="@dimen/l_size"
+            android:layout_marginTop="35dp"
+            android:layout_marginStart="30dp"
+            android:textStyle="bold"/>
+
     <androidx.cardview.widget.CardView
         android:layout_width="350dp"
-        android:layout_height="400dp"
-        android:layout_margin="27dp"
-        app:cardCornerRadius="15dp">
+        android:layout_height="300dp"
+        android:layout_marginTop="107dp"
+        android:layout_marginStart="27dp"
+        app:cardCornerRadius="15dp"
+        >
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity"
         tools:ignore="UselessParent">
+
 
         <SearchView
             android:id="@+id/idSV"
@@ -34,5 +50,5 @@
                 android:paddingBottom="5dp"/>
     </RelativeLayout>
     </androidx.cardview.widget.CardView>
-
+    </RelativeLayout>
 </FrameLayout>
