@@ -176,19 +176,19 @@
                 <RadioButton
                     android:layout_width="80dp"
                     android:layout_height="60dp"
-                    android:text="@string/bad"/>
+                    android:text="@string/none"/>
                 <RadioButton
                     android:layout_width="80dp"
                     android:layout_height="60dp"
-                    android:text="@string/okay"/>
+                    android:text="@string/some"/>
                 <RadioButton
                     android:layout_width="80dp"
                     android:layout_height="60dp"
-                    android:text="@string/good"/>
+                    android:text="@string/enough"/>
                 <RadioButton
                     android:layout_width="80dp"
                     android:layout_height="60dp"
-                    android:text="@string/great"/>
+                    android:text="@string/a_lot"/>
 
             </RadioGroup>
 
@@ -214,19 +214,19 @@
                 <RadioButton
                     android:layout_width="80dp"
                     android:layout_height="60dp"
-                    android:text="@string/bad"/>
+                    android:text="@string/none"/>
                 <RadioButton
                     android:layout_width="80dp"
                     android:layout_height="60dp"
-                    android:text="@string/okay"/>
+                    android:text="@string/some"/>
                 <RadioButton
                     android:layout_width="80dp"
                     android:layout_height="60dp"
-                    android:text="@string/good"/>
+                    android:text="@string/enough"/>
                 <RadioButton
                     android:layout_width="80dp"
                     android:layout_height="60dp"
-                    android:text="@string/great"/>
+                    android:text="@string/a_lot"/>
 
             </RadioGroup>
 
@@ -237,7 +237,7 @@
                 android:textColor="@color/dark"
                 android:textAlignment="center"
                 android:gravity="center"
-                android:layout_marginTop="470dp"
+                android:layout_marginTop="460dp"
                 android:textStyle="bold"
                 />
             <RadioGroup
@@ -245,25 +245,25 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_marginTop="490dp"
+                android:layout_marginTop="480dp"
                 android:layout_marginStart="20dp">
 
                 <RadioButton
                     android:layout_width="80dp"
                     android:layout_height="60dp"
-                    android:text="@string/bad"/>
+                    android:text="@string/not"/>
                 <RadioButton
                     android:layout_width="80dp"
                     android:layout_height="60dp"
-                    android:text="@string/okay"/>
+                    android:text="@string/a_little"/>
                 <RadioButton
                     android:layout_width="80dp"
                     android:layout_height="60dp"
-                    android:text="@string/good"/>
+                    android:text="@string/decent"/>
                 <RadioButton
                     android:layout_width="80dp"
                     android:layout_height="60dp"
-                    android:text="@string/great"/>
+                    android:text="@string/very"/>
 
             </RadioGroup>
             <Button
