@@ -42,8 +42,8 @@ class Search : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        programmingLanguagesLV = binding.idLVProgrammingLanguages
-        searchView = binding.idSV
+        programmingLanguagesLV = binding.Resources
+        searchView = binding.idR
         programmingLanguagesList = ArrayList()
         programmingLanguagesList.add("Student Health Services")
         programmingLanguagesList.add("Financial Aid Office")

@@ -35,7 +35,7 @@
 
 
         <SearchView
-            android:id="@+id/idSV"
+            android:id="@+id/idR"
             android:layout_marginTop="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -44,10 +44,10 @@
             android:queryHint="Search " />
 
             <ListView
-                android:id="@+id/idLVProgrammingLanguages"
+                android:id="@+id/Resources"
                 android:layout_width="match_parent"
                 android:layout_height="fill_parent"
-                android:layout_below="@id/idSV"
+                android:layout_below="@id/idR"
                 android:paddingBottom="5dp"/>
     </RelativeLayout>
     </androidx.cardview.widget.CardView>
