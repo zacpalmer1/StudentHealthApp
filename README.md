@@ -16,13 +16,12 @@
  
   <img width="250" alt="Screenshot 2023-04-07 at 5 23 09 PM" src="https://user-images.githubusercontent.com/75393933/230749046-c32b36af-4e8b-46b5-b75d-d9f9a939f66d.png"> 
   
-### Search Page (In progress)
+### Search Page 
   - Allow user to search through and find student services or wellness articles
   - Allow user to either call student services or open articles
   
-  <img width="250" alt="Screenshot 2023-04-21 at 11 22 54 PM" src="https://user-images.githubusercontent.com/75393933/233759327-aad9c213-6d83-4985-83cf-871a5523d21b.png">
+  <img width="250" alt="Screenshot 2023-04-21 at 11 34 17 PM" src="https://user-images.githubusercontent.com/75393933/233760007-3e872104-ccc4-4150-9908-6a281cf68d76.png">
 
-  
 ### Post Page (In progress)
   - Create survey for students to log mental health
   - Generate score based on users answers
