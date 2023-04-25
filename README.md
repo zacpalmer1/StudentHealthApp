@@ -27,8 +27,8 @@
   - Generate score based on users answers
   - Prompt user with Toast displaying daily mental health score
   - Log score into database
-  
-  <img width="250" alt="Screenshot 2023-04-07 at 5 23 09 PM" src="https://user-images.githubusercontent.com/75393933/230692698-08e32924-ea3c-4a7a-86a0-8a64ec35d3f9.png">
+
+  <img width="250" alt="Screenshot 2023-04-07 at 5 23 09 PM" src="https://user-images.githubusercontent.com/75393933/234413474-996d1da6-399c-41d1-942b-f1ed79bd0203.gif">
   
 ### Wellness Page 
   - Allow users to scroll from a selection of wellness articles
