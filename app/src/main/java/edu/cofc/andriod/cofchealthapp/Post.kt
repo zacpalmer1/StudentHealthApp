@@ -5,6 +5,10 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.RadioButton
+import android.widget.Toast
+import edu.cofc.andriod.cofchealthapp.databinding.FragmentPostBinding
+import edu.cofc.andriod.cofchealthapp.databinding.FragmentSearchBinding
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -20,6 +24,8 @@ class Post : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
+    private lateinit var binding: FragmentPostBinding
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -32,11 +38,58 @@ class Post : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_post, container, false)
+        binding = FragmentPostBinding.inflate(inflater, container, false)
+        return binding.root
     }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        var q1score = 0
+        var q2score = 0
+        var q3score = 0
+        var q4score = 0
+        var q5score = 0
+        var q6score = 0
+        binding.postButton.setOnClickListener() {
+            // Question 1
+            if (binding.q11.isChecked) { q1score = 1 }
+            else if (binding.q12.isChecked) { q1score = 2 }
+            else if (binding.q13.isChecked) { q1score = 3 }
+            else if (binding.q14.isChecked) { q1score = 4 }
+            // Question 2
+            if (binding.q21.isChecked) { q2score = 1 }
+            else if (binding.q22.isChecked) { q2score = 2 }
+            else if (binding.q23.isChecked) { q2score = 3 }
+            else if (binding.q24.isChecked) { q2score = 4 }
+            // Question 3
+            if (binding.q31.isChecked) { q3score = 1 }
+            else if (binding.q32.isChecked) { q3score = 2 }
+            else if (binding.q33.isChecked) { q3score = 3 }
+            else if (binding.q34.isChecked) { q3score = 4 }
+            // Question 4
+            if (binding.q41.isChecked) { q4score = 1 }
+            else if (binding.q42.isChecked) { q4score = 2 }
+            else if (binding.q43.isChecked) { q4score = 3 }
+            else if (binding.q44.isChecked) { q4score = 4 }
+            // Question 5
+            if (binding.q51.isChecked) { q5score = 1 }
+            else if (binding.q52.isChecked) { q5score = 2 }
+            else if (binding.q53.isChecked) { q5score = 3 }
+            else if (binding.q54.isChecked) { q5score = 4 }
+            // Question 6
+            if (binding.q61.isChecked) { q6score = 1 }
+            else if (binding.q62.isChecked) { q6score = 2 }
+            else if (binding.q63.isChecked) { q6score = 3 }
+            else if (binding.q64.isChecked) { q6score = 4 }
+
+            val total = (q1score + q2score + q3score + q4score + q5score + q6score) / 6
+            val message = "Your Daily Score: $total/4" // Create a message to show in the Toast
+            val duration = Toast.LENGTH_SHORT // Set the duration of the Toast
+            Toast.makeText(requireContext(), message, duration).show()
+        }
+    }
     companion object {
         /**
          * Use this factory method to create a new instance of

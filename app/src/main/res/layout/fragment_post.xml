@@ -63,18 +63,22 @@
                 android:layout_marginStart="20dp">
 
                 <RadioButton
+                    android:id="@+id/q11"
                     android:layout_width="80dp"
                     android:layout_height="60dp"
                     android:text="@string/bad"/>
                 <RadioButton
+                    android:id="@+id/q12"
                     android:layout_width="80dp"
                     android:layout_height="60dp"
                     android:text="@string/okay"/>
                 <RadioButton
+                    android:id="@+id/q13"
                     android:layout_width="80dp"
                     android:layout_height="60dp"
                     android:text="@string/good"/>
                 <RadioButton
+                    android:id="@+id/q14"
                     android:layout_width="80dp"
                     android:layout_height="60dp"
                     android:text="@string/great"/>
@@ -99,18 +103,22 @@
                 android:layout_marginStart="20dp">
 
                 <RadioButton
+                    android:id="@+id/q21"
                     android:layout_width="80dp"
                     android:layout_height="60dp"
                     android:text="@string/bad"/>
                 <RadioButton
+                    android:id="@+id/q22"
                     android:layout_width="80dp"
                     android:layout_height="60dp"
                     android:text="@string/okay"/>
                 <RadioButton
+                    android:id="@+id/q23"
                     android:layout_width="80dp"
                     android:layout_height="60dp"
                     android:text="@string/good"/>
                 <RadioButton
+                    android:id="@+id/q24"
                     android:layout_width="80dp"
                     android:layout_height="60dp"
                     android:text="@string/great"/>
@@ -137,18 +145,22 @@
                 android:layout_marginStart="20dp">
 
                 <RadioButton
+                    android:id="@+id/q31"
                     android:layout_width="80dp"
                     android:layout_height="60dp"
                     android:text="@string/bad"/>
                 <RadioButton
+                    android:id="@+id/q32"
                     android:layout_width="80dp"
                     android:layout_height="60dp"
                     android:text="@string/okay"/>
                 <RadioButton
+                    android:id="@+id/q33"
                     android:layout_width="80dp"
                     android:layout_height="60dp"
                     android:text="@string/good"/>
                 <RadioButton
+                    android:id="@+id/q34"
                     android:layout_width="80dp"
                     android:layout_height="60dp"
                     android:text="@string/great"/>
@@ -174,18 +186,22 @@
                 android:layout_marginStart="20dp">
 
                 <RadioButton
+                    android:id="@+id/q41"
                     android:layout_width="80dp"
                     android:layout_height="60dp"
                     android:text="@string/none"/>
                 <RadioButton
+                    android:id="@+id/q42"
                     android:layout_width="80dp"
                     android:layout_height="60dp"
                     android:text="@string/some"/>
                 <RadioButton
+                    android:id="@+id/q43"
                     android:layout_width="80dp"
                     android:layout_height="60dp"
                     android:text="@string/enough"/>
                 <RadioButton
+                    android:id="@+id/q44"
                     android:layout_width="80dp"
                     android:layout_height="60dp"
                     android:text="@string/a_lot"/>
@@ -212,18 +228,22 @@
                 android:layout_marginStart="20dp">
 
                 <RadioButton
+                    android:id="@+id/q51"
                     android:layout_width="80dp"
                     android:layout_height="60dp"
                     android:text="@string/none"/>
                 <RadioButton
+                    android:id="@+id/q52"
                     android:layout_width="80dp"
                     android:layout_height="60dp"
                     android:text="@string/some"/>
                 <RadioButton
+                    android:id="@+id/q53"
                     android:layout_width="80dp"
                     android:layout_height="60dp"
                     android:text="@string/enough"/>
                 <RadioButton
+                    android:id="@+id/q54"
                     android:layout_width="80dp"
                     android:layout_height="60dp"
                     android:text="@string/a_lot"/>
@@ -249,18 +269,22 @@
                 android:layout_marginStart="20dp">
 
                 <RadioButton
+                    android:id="@+id/q61"
                     android:layout_width="80dp"
                     android:layout_height="60dp"
                     android:text="@string/not"/>
                 <RadioButton
+                    android:id="@+id/q62"
                     android:layout_width="80dp"
                     android:layout_height="60dp"
                     android:text="@string/a_little"/>
                 <RadioButton
+                    android:id="@+id/q63"
                     android:layout_width="80dp"
                     android:layout_height="60dp"
                     android:text="@string/decent"/>
                 <RadioButton
+                    android:id="@+id/q64"
                     android:layout_width="80dp"
                     android:layout_height="60dp"
                     android:text="@string/very"/>
