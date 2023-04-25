@@ -33,8 +33,8 @@
 ### Wellness Page 
   - Allow users to scroll from a selection of wellness articles
   - Allow user to open article from application into browser of choice
-  
-   <img width="250" alt="Screenshot 2023-04-07 at 5 23 09 PM" src="https://user-images.githubusercontent.com/75393933/230696520-94f3c0f8-7461-4a9c-9205-01c730367ff6.png">
+
+   <img width="250" alt="Screenshot 2023-04-07 at 5 23 09 PM" src="https://user-images.githubusercontent.com/75393933/234415052-ccf6ac2d-f6de-4b23-9cfa-bb4a1c6bb920.gif">
    
 ### Profile Page (In progress)
   - Visualize data saved in database to display weekly mental health statistics logged form user servey in Post Page
