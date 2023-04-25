@@ -22,7 +22,7 @@
 
   <img width="250" alt="Screenshot 2023-04-21 at 11 34 17 PM" src="https://user-images.githubusercontent.com/75393933/233763417-f68ca84d-aee7-44ed-b45f-68fc4c2153ea.gif">
 
-### Post Page (In progress)
+### Post Page 
   - Create survey for students to log mental health
   - Generate score based on users answers
   - Prompt user with Toast displaying daily mental health score
