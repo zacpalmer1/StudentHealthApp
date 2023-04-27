@@ -1,12 +1,16 @@
 package edu.cofc.andriod.cofchealthapp
 
+import android.content.ContentValues.TAG
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.RadioButton
 import android.widget.Toast
+import com.google.firebase.firestore.ktx.firestore
+import com.google.firebase.ktx.Firebase
 import edu.cofc.andriod.cofchealthapp.databinding.FragmentPostBinding
 import edu.cofc.andriod.cofchealthapp.databinding.FragmentSearchBinding
 
@@ -46,6 +50,7 @@ class Post : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        val db = Firebase.firestore
         var q1score = 0
         var q2score = 0
         var q3score = 0
@@ -84,9 +89,26 @@ class Post : Fragment() {
             else if (binding.q63.isChecked) { q6score = 3 }
             else if (binding.q64.isChecked) { q6score = 4 }
 
-            val total = (q1score + q2score + q3score + q4score + q5score + q6score) / 6
-            val message = "Your Daily Score: $total/4" // Create a message to show in the Toast
-            val duration = Toast.LENGTH_SHORT // Set the duration of the Toast
+            val total = ((q1score.toFloat() + q2score.toFloat() + q3score.toFloat() + q4score.toFloat() + q5score.toFloat() + q6score.toFloat()) / 6).toFloat()
+            val user = hashMapOf(
+                "first" to "Alan",
+                "middle" to "Mathison",
+                "last" to "Turing",
+                "born" to 1912
+            )
+
+            // Add a new document with a generated ID
+            db.collection("users")
+                .add(user)
+                .addOnSuccessListener { documentReference ->
+                    Log.d(TAG, "DocumentSnapshot added with ID: ${documentReference.id}")
+                }
+                .addOnFailureListener { e ->
+                    Log.w(TAG, "Error adding document", e)
+                }
+            val formatTotal = String.format("%.1f", total)
+            val message = "Daily Score: $formatTotal/4.0" // Create a message to show in the Toast
+            val duration = Toast.LENGTH_LONG// Set the duration of the Toast
             Toast.makeText(requireContext(), message, duration).show()
         }
     }

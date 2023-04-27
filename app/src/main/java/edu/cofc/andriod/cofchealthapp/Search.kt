@@ -20,9 +20,9 @@ class Search : Fragment() {
     private var param1: String? = null
     private var param2: String? = null
     private lateinit var binding: FragmentSearchBinding
-    lateinit var programmingLanguagesLV: ListView
+    lateinit var resourcesLV: ListView
     lateinit var listAdapter: ArrayAdapter<String>
-    lateinit var programmingLanguagesList: ArrayList<String>;
+    lateinit var resourcesList: ArrayList<String>;
     lateinit var searchView: SearchView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -39,30 +39,30 @@ class Search : Fragment() {
         binding = FragmentSearchBinding.inflate(inflater, container, false)
         return binding.root
     }
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
+    override fun onViewCreated(myview: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(myview, savedInstanceState)
 
-        programmingLanguagesLV = binding.Resources
+        resourcesLV = binding.Resources
         searchView = binding.idR
-        programmingLanguagesList = ArrayList()
-        programmingLanguagesList.add("Student Health Services")
-        programmingLanguagesList.add("Financial Aid Office")
-        programmingLanguagesList.add("Student Affairs")
-        programmingLanguagesList.add("Career Center")
-        programmingLanguagesList.add("Mental Stability")
-        programmingLanguagesList.add("Time Management")
-        programmingLanguagesList.add("Managing Stress")
-        programmingLanguagesList.add("Friendship Guide")
+        resourcesList = ArrayList()
+        resourcesList.add("Student Health Services")
+        resourcesList.add("Financial Aid Office")
+        resourcesList.add("Student Affairs")
+        resourcesList.add("Career Center")
+        resourcesList.add("Mental Stability")
+        resourcesList.add("Time Management")
+        resourcesList.add("Managing Stress")
+        resourcesList.add("Friendship Guide")
 
         listAdapter = ArrayAdapter<String>(
             requireContext(),
             android.R.layout.simple_list_item_1,
-            programmingLanguagesList
+            resourcesList
         )
 
-        programmingLanguagesLV.adapter = listAdapter
+        resourcesLV.adapter = listAdapter
 
-        programmingLanguagesLV.setOnItemClickListener { adapterView, view, position, id ->
+        resourcesLV.setOnItemClickListener { adapterView, _, position, _ ->
             when (val selectedItem = adapterView.getItemAtPosition(position) as String) {
                 "Student Health Services" -> {
                     (activity as? MainActivity)?.apply {
@@ -125,7 +125,7 @@ class Search : Fragment() {
 
         searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(query: String?): Boolean {
-                if (programmingLanguagesList.contains(query)) {
+                if (resourcesList.contains(query)) {
 
                     listAdapter.filter.filter(query)
                 }

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <dimen name="xxl_size"> 90sp </dimen>
     <dimen name="xl_size"> 50sp </dimen>
     <dimen name="l_size"> 35sp </dimen>
     <dimen name="m_size"> 15sp </dimen>
