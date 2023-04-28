@@ -45,251 +45,180 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                style="@style/post_questions"
                 android:text="@string/post_q1"
-                android:textColor="@color/dark"
-                android:textAlignment="center"
-                android:gravity="center"
                 android:layout_marginTop="20dp"
-                android:textStyle="bold"
                 />
+
             <RadioGroup
                 android:id="@+id/question_1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="40dp"
-                android:layout_marginStart="20dp">
+                style="@style/radio_qroup"
+                android:layout_marginTop="40dp">
 
                 <RadioButton
                     android:id="@+id/q11"
-                    android:layout_width="80dp"
-                    android:layout_height="60dp"
+                    style="@style/radio_button"
                     android:text="@string/bad"/>
                 <RadioButton
                     android:id="@+id/q12"
-                    android:layout_width="80dp"
-                    android:layout_height="60dp"
+                    style="@style/radio_button"
                     android:text="@string/okay"/>
                 <RadioButton
                     android:id="@+id/q13"
-                    android:layout_width="80dp"
-                    android:layout_height="60dp"
+                    style="@style/radio_button"
                     android:text="@string/good"/>
                 <RadioButton
                     android:id="@+id/q14"
-                    android:layout_width="80dp"
-                    android:layout_height="60dp"
+                    style="@style/radio_button"
                     android:text="@string/great"/>
 
             </RadioGroup>
+
             <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                style="@style/post_questions"
                 android:text="@string/post_q2"
-                android:textColor="@color/dark"
-                android:textAlignment="center"
-                android:gravity="center"
-                android:layout_marginTop="110dp"
-                android:textStyle="bold"
-                />
+                android:layout_marginTop="110dp" />
+
             <RadioGroup
                 android:id="@+id/question_2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="130dp"
-                android:layout_marginStart="20dp">
+                style="@style/radio_qroup"
+                android:layout_marginTop="130dp">
 
                 <RadioButton
                     android:id="@+id/q21"
-                    android:layout_width="80dp"
-                    android:layout_height="60dp"
+                    style="@style/radio_button"
                     android:text="@string/bad"/>
                 <RadioButton
                     android:id="@+id/q22"
-                    android:layout_width="80dp"
-                    android:layout_height="60dp"
+                    style="@style/radio_button"
                     android:text="@string/okay"/>
                 <RadioButton
                     android:id="@+id/q23"
-                    android:layout_width="80dp"
-                    android:layout_height="60dp"
+                    style="@style/radio_button"
                     android:text="@string/good"/>
                 <RadioButton
                     android:id="@+id/q24"
-                    android:layout_width="80dp"
-                    android:layout_height="60dp"
+                    style="@style/radio_button"
                     android:text="@string/great"/>
 
             </RadioGroup>
 
             <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                style="@style/post_questions"
                 android:text="@string/post_q3"
-                android:textColor="@color/dark"
-                android:textAlignment="center"
-                android:gravity="center"
-                android:layout_marginTop="200dp"
-                android:textStyle="bold"
-                />
+                android:layout_marginTop="200dp" />
 
             <RadioGroup
                 android:id="@+id/question_3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="220dp"
-                android:layout_marginStart="20dp">
+                style="@style/radio_qroup"
+                android:layout_marginTop="220dp">
 
                 <RadioButton
                     android:id="@+id/q31"
-                    android:layout_width="80dp"
-                    android:layout_height="60dp"
+                    style="@style/radio_button"
                     android:text="@string/bad"/>
                 <RadioButton
                     android:id="@+id/q32"
-                    android:layout_width="80dp"
-                    android:layout_height="60dp"
+                    style="@style/radio_button"
                     android:text="@string/okay"/>
                 <RadioButton
                     android:id="@+id/q33"
-                    android:layout_width="80dp"
-                    android:layout_height="60dp"
+                    style="@style/radio_button"
                     android:text="@string/good"/>
                 <RadioButton
                     android:id="@+id/q34"
-                    android:layout_width="80dp"
-                    android:layout_height="60dp"
+                    style="@style/radio_button"
                     android:text="@string/great"/>
 
             </RadioGroup>
 
             <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                style="@style/post_questions"
                 android:text="@string/post_q4"
-                android:textColor="@color/dark"
-                android:textAlignment="center"
-                android:gravity="center"
-                android:layout_marginTop="290dp"
-                android:textStyle="bold"/>
+                android:layout_marginTop="290dp"/>
 
             <RadioGroup
                 android:id="@+id/question_4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="310dp"
-                android:layout_marginStart="20dp">
+                style="@style/radio_qroup"
+                android:layout_marginTop="310dp">
 
                 <RadioButton
                     android:id="@+id/q41"
-                    android:layout_width="80dp"
-                    android:layout_height="60dp"
+                    style="@style/radio_button"
                     android:text="@string/none"/>
                 <RadioButton
                     android:id="@+id/q42"
-                    android:layout_width="80dp"
-                    android:layout_height="60dp"
+                    style="@style/radio_button"
                     android:text="@string/some"/>
                 <RadioButton
                     android:id="@+id/q43"
-                    android:layout_width="80dp"
-                    android:layout_height="60dp"
+                    style="@style/radio_button"
                     android:text="@string/enough"/>
                 <RadioButton
                     android:id="@+id/q44"
-                    android:layout_width="80dp"
-                    android:layout_height="60dp"
+                    style="@style/radio_button"
                     android:text="@string/a_lot"/>
 
             </RadioGroup>
 
             <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                style="@style/post_questions"
                 android:text="@string/post_q5"
-                android:textColor="@color/dark"
-                android:textAlignment="center"
-                android:gravity="center"
-                android:layout_marginTop="380dp"
-                android:textStyle="bold"
-                />
+                android:layout_marginTop="380dp" />
 
             <RadioGroup
                 android:id="@+id/question_5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="400dp"
-                android:layout_marginStart="20dp">
+                style="@style/radio_qroup"
+                android:layout_marginTop="400dp">
 
                 <RadioButton
                     android:id="@+id/q51"
-                    android:layout_width="80dp"
-                    android:layout_height="60dp"
+                    style="@style/radio_button"
                     android:text="@string/none"/>
                 <RadioButton
                     android:id="@+id/q52"
-                    android:layout_width="80dp"
-                    android:layout_height="60dp"
+                    style="@style/radio_button"
                     android:text="@string/some"/>
                 <RadioButton
                     android:id="@+id/q53"
-                    android:layout_width="80dp"
-                    android:layout_height="60dp"
+                    style="@style/radio_button"
                     android:text="@string/enough"/>
                 <RadioButton
                     android:id="@+id/q54"
-                    android:layout_width="80dp"
-                    android:layout_height="60dp"
+                    style="@style/radio_button"
                     android:text="@string/a_lot"/>
 
             </RadioGroup>
 
             <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                style="@style/post_questions"
                 android:text="@string/post_q6"
-                android:textColor="@color/dark"
-                android:textAlignment="center"
-                android:gravity="center"
-                android:layout_marginTop="460dp"
-                android:textStyle="bold"
-                />
+                android:layout_marginTop="460dp" />
+
             <RadioGroup
                 android:id="@+id/question_6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="480dp"
-                android:layout_marginStart="20dp">
+                style="@style/radio_qroup"
+                android:layout_marginTop="480dp">
 
                 <RadioButton
                     android:id="@+id/q61"
-                    android:layout_width="80dp"
-                    android:layout_height="60dp"
+                    style="@style/radio_button"
                     android:text="@string/not"/>
                 <RadioButton
                     android:id="@+id/q62"
-                    android:layout_width="80dp"
-                    android:layout_height="60dp"
+                    style="@style/radio_button"
                     android:text="@string/a_little"/>
                 <RadioButton
                     android:id="@+id/q63"
-                    android:layout_width="80dp"
-                    android:layout_height="60dp"
+                    style="@style/radio_button"
                     android:text="@string/decent"/>
                 <RadioButton
                     android:id="@+id/q64"
-                    android:layout_width="80dp"
-                    android:layout_height="60dp"
+                    style="@style/radio_button"
                     android:text="@string/very"/>
 
             </RadioGroup>
+
             <Button
                 android:id="@+id/post_button"
                 android:layout_width="100dp"
