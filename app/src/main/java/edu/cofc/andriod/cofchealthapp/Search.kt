@@ -20,10 +20,10 @@ class Search : Fragment() {
     private var param1: String? = null
     private var param2: String? = null
     private lateinit var binding: FragmentSearchBinding
-    lateinit var resourcesLV: ListView
+    private lateinit var resourcesLV: ListView
     lateinit var listAdapter: ArrayAdapter<String>
     lateinit var resourcesList: ArrayList<String>;
-    lateinit var searchView: SearchView
+    private lateinit var searchView: SearchView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let {
@@ -116,7 +116,6 @@ class Search : Fragment() {
                     openURL.data = Uri.parse("https://www.sonderwellness.com/blog/2022/08/22/healthy-friendships/")
                     startActivity(openURL)
                 }
-
                 else -> {
                     Toast.makeText(requireContext(), "Clicked $selectedItem", Toast.LENGTH_SHORT).show()
                 }
@@ -141,15 +140,6 @@ class Search : Fragment() {
 
     }
     companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         *
-         * @param param1 Parameter 1.
-         * @param param2 Parameter 2.
-         * @return A new instance of fragment SearchFragment.
-         */
-        // TODO: Rename and change types and number of parameters
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
             Search().apply {

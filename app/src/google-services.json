@@ -33,35 +33,6 @@
           ]
         }
       }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:1000590114889:android:d24c3695bfc64408277f98",
-        "android_client_info": {
-          "package_name": "edu.cofc.android.cofchealthapp"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "1000590114889-qtmk1k33mdnnvd7qrh48rp5791qt1bj6.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyD6MuCXVeWDhhYuAmDU009gpKfbkPnWht8"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "1000590114889-qtmk1k33mdnnvd7qrh48rp5791qt1bj6.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
     }
   ],
   "configuration_version": "1"

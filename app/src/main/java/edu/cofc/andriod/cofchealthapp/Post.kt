@@ -1,5 +1,6 @@
 package edu.cofc.andriod.cofchealthapp
 
+import android.annotation.SuppressLint
 import android.content.ContentValues.TAG
 import android.os.Bundle
 import android.util.Log
@@ -7,29 +8,23 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.RadioButton
+import java.text.SimpleDateFormat
+import java.util.Date
 import android.widget.Toast
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 import edu.cofc.andriod.cofchealthapp.databinding.FragmentPostBinding
-import edu.cofc.andriod.cofchealthapp.databinding.FragmentSearchBinding
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
+
+
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
 
-/**
- * A simple [Fragment] subclass.
- * Use the [Post.newInstance] factory method to
- * create an instance of this fragment.
- */
 class Post : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
     private lateinit var binding: FragmentPostBinding
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -43,11 +38,11 @@ class Post : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        // Inflate the layout for this fragment
         binding = FragmentPostBinding.inflate(inflater, container, false)
         return binding.root
     }
 
+    @SuppressLint("SimpleDateFormat")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         val db = Firebase.firestore
@@ -57,7 +52,14 @@ class Post : Fragment() {
         var q4score = 0
         var q5score = 0
         var q6score = 0
+
         binding.postButton.setOnClickListener() {
+            val dateFormat = SimpleDateFormat("MM/dd/yyyy") // specify the date format you want
+            val currentDate = Date() // get the current date
+            val dateString = dateFormat.format(currentDate)
+            val timeFormat = SimpleDateFormat("HH:mm:ss") // specify the time format you want
+            val currentTime = Date() // get the current time
+            val timeString = timeFormat.format(currentTime)
             // Question 1
             if (binding.q11.isChecked) { q1score = 1 }
             else if (binding.q12.isChecked) { q1score = 2 }
@@ -88,17 +90,20 @@ class Post : Fragment() {
             else if (binding.q62.isChecked) { q6score = 2 }
             else if (binding.q63.isChecked) { q6score = 3 }
             else if (binding.q64.isChecked) { q6score = 4 }
-
-            val total = ((q1score.toFloat() + q2score.toFloat() + q3score.toFloat() + q4score.toFloat() + q5score.toFloat() + q6score.toFloat()) / 6).toFloat()
+            // Calculate total
+            val total = ((q1score.toFloat() + q2score.toFloat() + q3score.toFloat() + q4score.toFloat() + q5score.toFloat() + q6score.toFloat()) / 6)
+            val formatTotal = String.format("%.1f", total)
+            val message = "Daily Score: $formatTotal/4.0" // Create a message to show in the Toast
+            val duration = Toast.LENGTH_LONG// Set the duration of the Toast
+            Toast.makeText(requireContext(), message, duration).show()
+            // Send to Database
             val user = hashMapOf(
-                "first" to "Alan",
-                "middle" to "Mathison",
-                "last" to "Turing",
-                "born" to 1912
+                "score" to formatTotal,
+                "date" to dateString,
+                "time" to timeString
             )
-
             // Add a new document with a generated ID
-            db.collection("users")
+            db.collection("usersScore")
                 .add(user)
                 .addOnSuccessListener { documentReference ->
                     Log.d(TAG, "DocumentSnapshot added with ID: ${documentReference.id}")
@@ -106,22 +111,9 @@ class Post : Fragment() {
                 .addOnFailureListener { e ->
                     Log.w(TAG, "Error adding document", e)
                 }
-            val formatTotal = String.format("%.1f", total)
-            val message = "Daily Score: $formatTotal/4.0" // Create a message to show in the Toast
-            val duration = Toast.LENGTH_LONG// Set the duration of the Toast
-            Toast.makeText(requireContext(), message, duration).show()
         }
     }
     companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         *
-         * @param param1 Parameter 1.
-         * @param param2 Parameter 2.
-         * @return A new instance of fragment PostFragment.
-         */
-        // TODO: Rename and change types and number of parameters
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
             Post().apply {
