@@ -47,6 +47,7 @@
   - Visualize data saved in database to display weekly mental health statistics logged form user servey in Post Page
   - Visualize data saved in database to display monthly mental health statistics logged form user servey in Post Page
    
+   <img width="250" alt="Screenshot 2023-04-07 at 5 23 09 PM" src="https://user-images.githubusercontent.com/75393933/235030179-51321f08-4b85-4a5e-ba80-7a498975e600.png">
 
 ## Languages and API's
 - Kotlin
