@@ -6,7 +6,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Profile">
 
-    <!-- TODO: Update blank fragment layout -->
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -46,68 +45,36 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
-        android:layout_width="350dp"
-        android:layout_height="250dp"
-        android:layout_marginStart="27dp"
+        style="@style/profile_card"
         android:layout_marginTop="147dp"
-        android:layout_marginEnd="27dp"
-        android:layout_marginBottom="27dp"
         app:cardBackgroundColor="@color/white"
         app:cardCornerRadius="15dp"
         app:cardElevation="8dp">
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Daily Score"
-            android:textStyle="bold"
-            android:textSize="@dimen/m_size"
-            android:textAlignment="center"
-            android:layout_marginTop="12dp"
-            android:textColor="@color/black"/>
+            style="@style/profile_text"
+            android:text="Daily Score" />
 
         <TextView
             android:id="@+id/dailyScore"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:textStyle="bold"
-            android:textAlignment="center"
-            android:layout_marginTop="70dp"
-            android:textSize="@dimen/xxl_size"
-            android:textColor="@color/secondary"/>
+            style="@style/profile_text_large"/>
 
     </androidx.cardview.widget.CardView>
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView2"
-        android:layout_width="350dp"
-        android:layout_height="250dp"
-        android:layout_marginStart="27dp"
+        style="@style/profile_card"
         android:layout_marginTop="437dp"
-        android:layout_marginEnd="27dp"
-        android:layout_marginBottom="27dp"
         app:cardBackgroundColor="@color/white"
         app:cardCornerRadius="15dp"
         app:cardElevation="8dp">
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Weekly Average"
-            android:textStyle="bold"
-            android:textSize="@dimen/m_size"
-            android:textAlignment="center"
-            android:layout_marginTop="12dp"
-            android:textColor="@color/black"/>
+            style="@style/profile_text"
+            android:text="Weekly Average" />
 
         <TextView
             android:id="@+id/weekly"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:textStyle="bold"
-            android:textAlignment="center"
-            android:layout_marginTop="70dp"
-            android:textSize="@dimen/xxl_size"
-            android:textColor="@color/secondary"/>
+            style="@style/profile_text_large"/>
 
     </androidx.cardview.widget.CardView>
 

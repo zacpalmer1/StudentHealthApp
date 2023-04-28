@@ -2,7 +2,6 @@
     <string name="app_name">CofC Health App</string>
     <string name="greeting">Hi Zac, \nWelcome Back</string>
     <string name="service_title">Student Health Service</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="post_q1">How was your overall mood today?</string>
     <string name="post_q2">How was your anxiety or stress today?</string>
