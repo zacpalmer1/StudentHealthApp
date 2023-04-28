@@ -21,14 +21,7 @@
                 android:layout_height="match_parent">
 
                 <TextView
-                    style="@style/greeting_text"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="35dp"
-                    android:layout_marginTop="40sp"
-                    android:paddingBottom="10dp"
-                    android:textSize="@dimen/l_size"
-                    android:text="@string/greeting"
+                    style="@style/home_main_text"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.10"
                     app:layout_constraintStart_toStartOf="parent"
@@ -73,40 +66,23 @@
 
                     <ImageView
                         android:id="@+id/imageView2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:paddingBottom="73dp"
+                        style="@style/home_images"
                         android:src="@drawable/hotline"
                         android:contentDescription="@string/student_health_photo" />
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginTop="210dp"
+                        style="@style/home_card_text"
                         android:text="@string/student_health_services"
-                        android:textColor="@color/dark"
-                        android:textSize="@dimen/m_size"
-                        android:textStyle="bold" />
+                        />
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginTop="235dp"
+                        style="@style/home_card_text_sub"
                         android:text="@string/home_title_1_hours"
-                        android:textColor="@color/dark"
-                        android:textSize="@dimen/s_size"
-                        android:textStyle="bold" />
+                        />
 
                     <Button
                         android:id="@+id/studentServices"
-                        android:layout_width="100dp"
-                        android:layout_height="50dp"
-                        android:layout_marginStart="230dp"
-                        android:layout_marginTop="205dp"
-                        android:backgroundTint="@color/pop"
-                        android:text="@string/call_button"
+                        style="@style/call_button"
                         app:cornerRadius="20dp" />
 
                 </RelativeLayout>
@@ -115,10 +91,7 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView2"
-                android:layout_width="350dp"
-                android:layout_height="270dp"
-                android:layout_margin="27dp"
-                android:layout_marginStart="60dp"
+                style="@style/home_card"
                 app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="15dp"
                 app:cardElevation="8dp">
@@ -129,40 +102,23 @@
 
                     <ImageView
                         android:id="@+id/imageView3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:paddingBottom="73dp"
+                        style="@style/home_images"
                         android:src="@drawable/second"
                         android:contentDescription="@string/suicide_hotline_photo" />
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginTop="210dp"
+                        style="@style/home_card_text"
                         android:text="@string/financial_aid_office"
-                        android:textColor="@color/dark"
-                        android:textSize="@dimen/m_size"
-                        android:textStyle="bold" />
+                        />
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginTop="235dp"
+                        style="@style/home_card_text_sub"
                         android:text="@string/hours_24_7"
-                        android:textColor="@color/dark"
-                        android:textSize="@dimen/s_size"
-                        android:textStyle="bold" />
+                        />
 
                     <Button
                         android:id="@+id/financialAid"
-                        android:layout_width="100dp"
-                        android:layout_height="50dp"
-                        android:layout_marginStart="230dp"
-                        android:layout_marginTop="205dp"
-                        android:backgroundTint="@color/pop"
-                        android:text="@string/call_button"
+                        style="@style/call_button"
                         app:cornerRadius="20dp" />
 
                 </RelativeLayout>
@@ -171,10 +127,7 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView3"
-                android:layout_width="350dp"
-                android:layout_height="270dp"
-                android:layout_margin="27dp"
-                android:layout_marginStart="60dp"
+                style="@style/home_card"
                 app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="15dp"
                 app:cardElevation="8dp">
@@ -185,42 +138,24 @@
 
                     <ImageView
                         android:id="@+id/imageView4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:paddingBottom="73dp"
+                        style="@style/home_images"
                         android:src="@drawable/harbor"
                         android:contentDescription="@string/student_affairs_photo" />
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginTop="210dp"
+                        style="@style/home_card_text"
                         android:text="@string/student_affairs"
-                        android:textColor="@color/dark"
-                        android:textSize="@dimen/m_size"
-                        android:textStyle="bold" />
+                        />
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginTop="235dp"
+                        style="@style/home_card_text_sub"
                         android:text="@string/hours_8_30am_5pm"
-                        android:textColor="@color/dark"
-                        android:textSize="@dimen/s_size"
-                        android:textStyle="bold" />
+                        />
 
                     <Button
                         android:id="@+id/studentAffairs"
-                        android:layout_width="100dp"
-                        android:layout_height="50dp"
-                        android:layout_marginStart="230dp"
-                        android:layout_marginTop="205dp"
-                        android:backgroundTint="@color/pop"
-                        android:text="@string/call_button"
+                        style="@style/call_button"
                         app:cornerRadius="20dp" />
-
 
                 </RelativeLayout>
 
@@ -228,10 +163,7 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView4"
-                android:layout_width="350dp"
-                android:layout_height="270dp"
-                android:layout_margin="27dp"
-                android:layout_marginStart="60dp"
+                style="@style/home_card"
                 app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="15dp"
                 app:cardElevation="8dp">
@@ -242,40 +174,23 @@
 
                     <ImageView
                         android:id="@+id/imageView5"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:paddingBottom="72dp"
+                        style="@style/home_images"
                         android:src="@drawable/student"
                         android:contentDescription="@string/career_center_photo" />
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginTop="210dp"
+                        style="@style/home_card_text"
                         android:text="@string/career_center"
-                        android:textColor="@color/dark"
-                        android:textSize="@dimen/m_size"
-                        android:textStyle="bold" />
+                        />
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginTop="235dp"
+                        style="@style/home_card_text_sub"
                         android:text="@string/hours_8_30am_5pm"
-                        android:textColor="@color/dark"
-                        android:textSize="@dimen/s_size"
-                        android:textStyle="bold" />
+                        />
 
                     <Button
                         android:id="@+id/careerCenter"
-                        android:layout_width="100dp"
-                        android:layout_height="50dp"
-                        android:layout_marginStart="230dp"
-                        android:layout_marginTop="205dp"
-                        android:backgroundTint="@color/pop"
-                        android:text="@string/call_button"
+                        style="@style/call_button"
                         app:cornerRadius="20dp" />
 
                 </RelativeLayout>

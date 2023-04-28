@@ -1,16 +1,19 @@
 package edu.cofc.andriod.cofchealthapp
 
+import android.content.Context
 import android.content.Intent
 import android.net.Uri
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
+import android.widget.EditText
 import android.view.ViewGroup
-import android.widget.ArrayAdapter
-import android.widget.ListView
-import android.widget.SearchView
-import android.widget.Toast
+import android.view.WindowManager
+import android.view.inputmethod.InputMethodManager
+import android.widget.*
 import androidx.fragment.app.Fragment
+import edu.cofc.andriod.cofchealthapp.databinding.ActivityMainBinding
 import edu.cofc.andriod.cofchealthapp.databinding.FragmentSearchBinding
 
 private const val ARG_PARAM1 = "param1"
@@ -24,11 +27,14 @@ class Search : Fragment() {
     lateinit var listAdapter: ArrayAdapter<String>
     lateinit var resourcesList: ArrayList<String>;
     private lateinit var searchView: SearchView
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let {
             param1 = it.getString(ARG_PARAM1)
             param2 = it.getString(ARG_PARAM2)
+
+
         }
     }
 
@@ -38,9 +44,13 @@ class Search : Fragment() {
     ): View {
         binding = FragmentSearchBinding.inflate(inflater, container, false)
         return binding.root
+
     }
     override fun onViewCreated(myview: View, savedInstanceState: Bundle?) {
         super.onViewCreated(myview, savedInstanceState)
+
+        val editText = binding.idR
+        editText.requestFocus()
 
         resourcesLV = binding.Resources
         searchView = binding.idR

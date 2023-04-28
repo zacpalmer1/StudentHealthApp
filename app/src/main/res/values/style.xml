@@ -21,10 +21,58 @@
         <item name="android:layout_marginRight">20dp</item>
     </style>
     <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/dark</item>
         <item name="colorPrimaryDark">@color/dark</item>
         <item name="colorAccent">@color/dark</item>
     </style>
-
+    <style name="home_card_text" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:textColor">@color/dark</item>
+        <item name="android:textSize">@dimen/m_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">210dp</item>
+    </style>
+    <style name="home_card_text_sub" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:textColor">@color/dark</item>
+        <item name="android:textSize">@dimen/s_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">235dp</item>
+    </style>
+    <style name="call_button" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginStart">230dp</item>
+        <item name="android:backgroundTint">@color/pop</item>
+        <item name="android:layout_marginTop">205dp</item>
+        <item name="android:text">Call</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="home_main_text" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">35dp</item>
+        <item name="android:backgroundTint">@color/pop</item>
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textSize">@dimen/l_size</item>
+        <item name="android:text">@string/greeting</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="home_images" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">73dp</item>
+    </style>
+    <style name="home_card" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">350dp</item>
+        <item name="android:layout_height">270dp</item>
+        <item name="android:layout_margin">27dp</item>
+        <item name="android:layout_marginStart">60dp</item>
+    </style>
 </resources>

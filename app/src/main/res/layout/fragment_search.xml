@@ -41,7 +41,9 @@
             android:layout_height="wrap_content"
             android:iconifiedByDefault="false"
             android:padding="4dp"
-            android:queryHint="Search " />
+            android:queryHint="Search "
+            android:focusableInTouchMode="true"
+            android:focusable="true"/>
 
             <ListView
                 android:id="@+id/Resources"
