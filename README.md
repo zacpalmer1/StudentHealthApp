@@ -29,7 +29,14 @@
   - Log score into database
 
   <img width="250" alt="Screenshot 2023-04-07 at 5 23 09 PM" src="https://user-images.githubusercontent.com/75393933/234413474-996d1da6-399c-41d1-942b-f1ed79bd0203.gif">
-  
+
+### Firebase Database
+  - Stored Data
+    - Post score 
+    - Users Date & Time
+
+<img width="500" alt="Screenshot 2023-04-07 at 5 23 09 PM" src="https://user-images.githubusercontent.com/75393933/235029728-431ccb94-e7c9-44ce-b88b-cb361be5aaa4.png">
+
 ### Wellness Page 
   - Allow users to scroll from a selection of wellness articles
   - Allow user to open article from application into browser of choice
