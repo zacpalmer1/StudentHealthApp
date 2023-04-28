@@ -46,8 +46,8 @@ class Profile : Fragment() {
         FirebaseApp.initializeApp(requireContext())
         val db = Firebase.firestore
         // Get a reference to the collection
-        val docRef = db.collection("usersScore").document("5ccOvKbEKGngZr1OKo0s")
-        docRef.get()
+        val daily = db.collection("usersScore").document("5ccOvKbEKGngZr1OKo0s")
+        daily.get()
             .addOnSuccessListener { document ->
                 if (document != null) {
                     val total = document.getString("score") // get the value of the 'population' field
@@ -59,6 +59,20 @@ class Profile : Fragment() {
             .addOnFailureListener { exception ->
                 Log.d(TAG, "get failed with ", exception)
             }
+        val weekly = db.collection("usersScore").document("NEZr7GfLo2FDcW1WDeOJ")
+        weekly.get()
+            .addOnSuccessListener { document ->
+                if (document != null) {
+                    val weeklyScore = document.getString("score") // get the value of the 'score' field
+                    binding.weekly.text = weeklyScore // display the weekly score in a TextView using data binding
+                } else {
+                    Log.d(TAG, "No such document")
+                }
+            }
+            .addOnFailureListener { exception ->
+                Log.d(TAG, "get failed with ", exception)
+            }
+
     }
 
     companion object {
