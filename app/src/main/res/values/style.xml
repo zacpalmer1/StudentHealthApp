@@ -94,4 +94,32 @@
         <item name="android:orientation">horizontal</item>
         <item name="android:layout_marginStart">20dp</item>
     </style>
+    <style name="wellness_photo" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">63dp</item>
+    </style>
+    <style name="wellness_text" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@color/dark</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/m_size</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginTop">155dp</item>
+    </style>
+    <style name="wellness_card" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">350dp</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:layout_marginTop">50dp</item>
+        <item name="android:layout_marginStart">27dp</item>
+    </style>
+    <style name="wellness_button" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:backgroundTint">@color/pop</item>
+        <item name="android:layout_marginTop">140dp</item>
+        <item name="android:layout_marginStart">230dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
 </resources>
